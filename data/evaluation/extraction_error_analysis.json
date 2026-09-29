@@ -1,0 +1,605 @@
+{
+  "summary": {
+    "PRODUCT_MISSED": 0,
+    "PRODUCT_WRONG": 26,
+    "APPLICATION_MISSED": 16,
+    "MATERIAL_MISSED": 42,
+    "PARAMETER_MISSED": 0,
+    "PARAMETER_WRONG": 0,
+    "UNIT_WRONG": 0,
+    "VALID_QUERY_SUPPORTED_EXTRACTION": 99,
+    "GENUINE_OVER_EXTRACTION": 0,
+    "HALLUCINATION": 0
+  },
+  "sector_audit_summary": {
+    "true_sector_errors": 14,
+    "normalization_errors": 1,
+    "ambiguity_cases": 24,
+    "missing_sector_cases": 78
+  },
+  "categories": {
+    "PRODUCT_MISSED": [],
+    "PRODUCT_WRONG": [
+      {
+        "query_id": "syn_000168",
+        "query": "Competitive bids invited for supply of homogeneous MDF wood fiber panels for general joinery intended for furniture and boards and interior products.",
+        "gt_product": "Medium density fibre boards for general purpose",
+        "extracted_product": "homogeneous MDF wood fiber panels for general joinery",
+        "difficulty": "NORMAL"
+      },
+      {
+        "query_id": "syn_000179",
+        "query": "Notice Inviting Tender for supply and inspection of domestic electric refrigerators for food cold storage required for refrigeration and cold storage.",
+        "gt_product": "Household Refrigerating Appliances - Characteristics and Test Methods Part 1: General Requirements",
+        "extracted_product": "domestic electric refrigerators for food cold storage",
+        "difficulty": "NORMAL"
+      },
+      {
+        "query_id": "syn_000182",
+        "query": "Notice Inviting Tender for supply and inspection of freezing storage cabinets for food preservation required for refrigeration and cold storage.",
+        "gt_product": "Freezers",
+        "extracted_product": "freezing storage cabinets for food preservation",
+        "difficulty": "NORMAL"
+      },
+      {
+        "query_id": "syn_000186",
+        "query": "Notice Inviting Tender for supply and inspection of welded and seamless mild steel pipes for water and gas required for water, gas or structural piping.",
+        "gt_product": "Steel Tubes, Tubulars and Other Wrought Steel Fittings - Part 1: Steel Tubes",
+        "extracted_product": "welded and seamless mild steel pipes for water and gas",
+        "difficulty": "NORMAL"
+      },
+      {
+        "query_id": "syn_000192",
+        "query": "Competitive bids invited for supply of household gas cooking stoves for liquefied petroleum gas intended for gas and LPG systems.",
+        "gt_product": "Domestic gas stove and built in hob for use with LPG",
+        "extracted_product": "household gas cooking stoves for liquefied petroleum gas",
+        "difficulty": "NORMAL"
+      },
+      {
+        "query_id": "syn_000194",
+        "query": "Notice Inviting Tender for supply and inspection of electrical switches for household installations required for electrical installations and appliances.",
+        "gt_product": "Switches for domestic and similar purposes",
+        "extracted_product": "electrical switches for household installations",
+        "difficulty": "NORMAL"
+      },
+      {
+        "query_id": "syn_000252",
+        "query": "Tender for the supply and commissioning of hermetically sealed refrigerant motor-compressors for use for heating, ventilation and air conditioning.",
+        "gt_product": "Hermetic compressor",
+        "extracted_product": "hermetically sealed refrigerant motor-compressors",
+        "difficulty": "NORMAL"
+      },
+      {
+        "query_id": "syn_000284",
+        "query": "Competitive bids invited for supply of motorcycle rider protective safety helmets intended for personal protective equipment.",
+        "gt_product": "Helmet for riders of Two Wheeler Motor Vehicles",
+        "extracted_product": "motorcycle rider protective safety helmets",
+        "difficulty": "NORMAL"
+      },
+      {
+        "query_id": "syn_000311",
+        "query": "Tender for the supply and commissioning of solid wood batten blockboards for joinery for use for furniture and boards and interior products.",
+        "gt_product": "Block Boards",
+        "extracted_product": "solid wood batten blockboards for joinery",
+        "difficulty": "NORMAL"
+      },
+      {
+        "query_id": "syn_000318",
+        "query": "Competitive bids invited for supply of alternating current capacitors for induction motors intended for electrical power systems.",
+        "gt_product": "A.C. motor capacitors",
+        "extracted_product": "alternating current capacitors for induction motors",
+        "difficulty": "NORMAL"
+      }
+    ],
+    "APPLICATION_MISSED": [
+      {
+        "query_id": "syn_000351",
+        "query": "Tender for procurement of protective headgear with retention system designed to protect riders of two-wheeler motor vehicles from head injury to satisfy project requirements.",
+        "gt_application": "personal protective equipment",
+        "extracted_application": [],
+        "difficulty": "HARD"
+      },
+      {
+        "query_id": "syn_000355",
+        "query": "Notice Inviting Tender for hermetic refrigerant compressors conforming to HVAC mechanical safety specifications.",
+        "gt_application": "heating, ventilation and air conditioning",
+        "extracted_application": [],
+        "difficulty": "HARD"
+      },
+      {
+        "query_id": "syn_000359",
+        "query": "Bids invited for supply of household electric room heaters providing indoor space heating in electrical installations for immediate deployment.",
+        "gt_application": "electrical installations / appliances",
+        "extracted_application": [],
+        "difficulty": "HARD"
+      },
+      {
+        "query_id": "syn_000366",
+        "query": "Notice Inviting Tender for immersion electric water heaters conforming to household appliance safety specifications.",
+        "gt_application": "electrical installations / appliances",
+        "extracted_application": [],
+        "difficulty": "HARD"
+      },
+      {
+        "query_id": "syn_000369",
+        "query": "Bids invited for supply of A.C. motor capacitors providing phase displacement in single-phase motor circuits for immediate deployment.",
+        "gt_application": "electrical power systems",
+        "extracted_application": [],
+        "difficulty": "HARD"
+      },
+      {
+        "query_id": "syn_000383",
+        "query": "Notice Inviting Tender for self-ballasted illumination lamps satisfying electrical safety and performance requirements.",
+        "gt_application": "electrical installations / appliances",
+        "extracted_application": [],
+        "difficulty": "HARD"
+      },
+      {
+        "query_id": "syn_000384",
+        "query": "Bids invited for supply of baseline general electrical safety standard covering domestic and similar appliances for immediate deployment.",
+        "gt_application": "electrical installations / appliances",
+        "extracted_application": [],
+        "difficulty": "HARD"
+      },
+      {
+        "query_id": "syn_000389",
+        "query": "Bids invited for supply of household electric cooking appliances with electrical resistance heating surfaces for immediate deployment.",
+        "gt_application": "electrical installations / appliances",
+        "extracted_application": [],
+        "difficulty": "HARD"
+      },
+      {
+        "query_id": "syn_000397",
+        "query": "Bids invited for supply of household electric food preparation appliances combining mixing, grinding, and juicing functions for immediate deployment.",
+        "gt_application": "domestic kitchen appliances",
+        "extracted_application": [],
+        "difficulty": "HARD"
+      },
+      {
+        "query_id": "syn_000398",
+        "query": "Bids invited for supply of domestic electric refrigerating cabinets conforming to Part 1 general requirements and test methods for immediate deployment.",
+        "gt_application": "refrigeration / cold storage",
+        "extracted_application": [],
+        "difficulty": "HARD"
+      }
+    ],
+    "MATERIAL_MISSED": [
+      {
+        "query_id": "syn_000029",
+        "query": "Notice Inviting Tender for supply of Poly Aluminium Chloride for chemical processing and industrial materials.",
+        "missed_material": "aluminium",
+        "difficulty": "EASY"
+      },
+      {
+        "query_id": "syn_000032",
+        "query": "Notice Inviting Tender for supply of Cast iron manhole covers and frames for drainage and civil infrastructure.",
+        "missed_material": "iron",
+        "difficulty": "EASY"
+      },
+      {
+        "query_id": "syn_000042",
+        "query": "Notice Inviting Tender for supply of Welded low carbon steel gas cylinder exceeding 5 litre water capacity - Part 1: Cylinders for liquefied petroleum gas (LPG) for gas and LPG systems.",
+        "missed_material": "carbon",
+        "difficulty": "EASY"
+      },
+      {
+        "query_id": "syn_000063",
+        "query": "Notice Inviting Tender for supply of Electrogalvanized Hot Rolled and Cold Reduced Carbon Steel Sheets and Strips for construction and engineering.",
+        "missed_material": "carbon",
+        "difficulty": "EASY"
+      },
+      {
+        "query_id": "syn_000066",
+        "query": "Notice Inviting Tender for supply of Laboratory glassware - Graduated measuring cylinders for laboratory measurement and handling.",
+        "missed_material": "glass",
+        "difficulty": "EASY"
+      },
+      {
+        "query_id": "syn_000069",
+        "query": "Notice Inviting Tender for supply of Grey iron castings for drainage and civil infrastructure.",
+        "missed_material": "iron",
+        "difficulty": "EASY"
+      },
+      {
+        "query_id": "syn_000078",
+        "query": "Notice Inviting Tender for supply of Laboratory glassware - One-Mark volumetric flasks for laboratory measurement and handling.",
+        "missed_material": "glass",
+        "difficulty": "EASY"
+      },
+      {
+        "query_id": "syn_000096",
+        "query": "Notice Inviting Tender for procurement of Laboratory glassware - One-Mark volumetric flasks required for laboratory measurement and handling.",
+        "missed_material": "glass",
+        "difficulty": "EASY"
+      },
+      {
+        "query_id": "syn_000100",
+        "query": "Notice Inviting Tender for procurement of Grey iron castings required for drainage and civil infrastructure.",
+        "missed_material": "iron",
+        "difficulty": "EASY"
+      },
+      {
+        "query_id": "syn_000107",
+        "query": "Notice Inviting Tender for procurement of Electrogalvanized Hot Rolled and Cold Reduced Carbon Steel Sheets and Strips required for construction and engineering.",
+        "missed_material": "carbon",
+        "difficulty": "EASY"
+      }
+    ],
+    "PARAMETER_MISSED": [],
+    "PARAMETER_WRONG": [],
+    "UNIT_WRONG": [],
+    "VALID_QUERY_SUPPORTED_EXTRACTION": [
+      {
+        "query_id": "syn_000009",
+        "query": "Notice Inviting Tender for supply of Domestic Gas Stoves for use with Piped Natural Gas (PNG) for gas and LPG systems.",
+        "field": "material",
+        "value": "lpg",
+        "reason": "Explicitly present in query text but omitted from seed derived facets",
+        "difficulty": "EASY"
+      },
+      {
+        "query_id": "syn_000010",
+        "query": "Notice Inviting Tender for supply of Structural Steel (Ordinary Quality) for construction and engineering.",
+        "field": "material",
+        "value": "structural steel",
+        "reason": "Explicitly present in query text but omitted from seed derived facets",
+        "difficulty": "EASY"
+      },
+      {
+        "query_id": "syn_000013",
+        "query": "Notice Inviting Tender for supply of Particle boards of wood and other lignocellulosic materials (medium density) for general purpose for furniture and boards and interior products.",
+        "field": "material",
+        "value": "wood",
+        "reason": "Explicitly present in query text but omitted from seed derived facets",
+        "difficulty": "EASY"
+      },
+      {
+        "query_id": "syn_000019",
+        "query": "Notice Inviting Tender for supply of Hot-Dip Zinc - Aluminium - Magnesium Alloy Coated Steel Sheets, Plates and Strips for construction and engineering.",
+        "field": "material",
+        "value": "zinc",
+        "reason": "Explicitly present in query text but omitted from seed derived facets",
+        "difficulty": "EASY"
+      },
+      {
+        "query_id": "syn_000023",
+        "query": "Notice Inviting Tender for supply of Portland Slag Cement for construction.",
+        "field": "material",
+        "value": "slag",
+        "reason": "Explicitly present in query text but omitted from seed derived facets",
+        "difficulty": "EASY"
+      },
+      {
+        "query_id": "syn_000029",
+        "query": "Notice Inviting Tender for supply of Poly Aluminium Chloride for chemical processing and industrial materials.",
+        "field": "material",
+        "value": "poly aluminium chloride",
+        "reason": "Explicitly present in query text but omitted from seed derived facets",
+        "difficulty": "EASY"
+      },
+      {
+        "query_id": "syn_000030",
+        "query": "Notice Inviting Tender for supply of Cast iron/ductile iron drainage pipes and pipe fittings for over ground non-pressure pipelines socket and spigot series for drainage and civil infrastructure.",
+        "field": "material",
+        "value": "cast iron",
+        "reason": "Explicitly present in query text but omitted from seed derived facets",
+        "difficulty": "EASY"
+      },
+      {
+        "query_id": "syn_000032",
+        "query": "Notice Inviting Tender for supply of Cast iron manhole covers and frames for drainage and civil infrastructure.",
+        "field": "material",
+        "value": "cast iron",
+        "reason": "Explicitly present in query text but omitted from seed derived facets",
+        "difficulty": "EASY"
+      },
+      {
+        "query_id": "syn_000039",
+        "query": "Notice Inviting Tender for supply of Portland Pozzolana Cement - Part 2 Calcined clay based for construction.",
+        "field": "material",
+        "value": "clay",
+        "reason": "Explicitly present in query text but omitted from seed derived facets",
+        "difficulty": "EASY"
+      },
+      {
+        "query_id": "syn_000042",
+        "query": "Notice Inviting Tender for supply of Welded low carbon steel gas cylinder exceeding 5 litre water capacity - Part 1: Cylinders for liquefied petroleum gas (LPG) for gas and LPG systems.",
+        "field": "material",
+        "value": "carbon steel",
+        "reason": "Explicitly present in query text but omitted from seed derived facets",
+        "difficulty": "EASY"
+      }
+    ],
+    "GENUINE_OVER_EXTRACTION": [],
+    "HALLUCINATION": []
+  },
+  "sector_audit_samples": {
+    "true_sector_errors": [
+      {
+        "query_id": "syn_000035",
+        "query": "Notice Inviting Tender for supply of Household Refrigerating Appliances - Characteristics and Test Methods Part 1: General Requirements for refrigeration and cold storage.",
+        "gt_sector_original": "Refrigeration",
+        "gt_sector_normalized": "Refrigeration",
+        "predicted_sector": "Electrical",
+        "difficulty": "EASY",
+        "product": "Household Refrigerating Appliances - Characteristics and Test Methods Part 1: General Requirements"
+      },
+      {
+        "query_id": "syn_000075",
+        "query": "Notice Inviting Tender for supply of Instantaneous Domestic Water Heater for use with Liquefied Petroleum Gas for domestic kitchen appliances.",
+        "gt_sector_original": "Kitchen Appliances",
+        "gt_sector_normalized": "Kitchen Appliances",
+        "predicted_sector": "Gas & LPG",
+        "difficulty": "EASY",
+        "product": "Instantaneous Domestic Water Heater for use with Liquefied Petroleum Gas"
+      },
+      {
+        "query_id": "syn_000143",
+        "query": "Notice Inviting Tender for procurement of Instantaneous Domestic Water Heater for use with Liquefied Petroleum Gas required for domestic kitchen appliances.",
+        "gt_sector_original": "Kitchen Appliances",
+        "gt_sector_normalized": "Kitchen Appliances",
+        "predicted_sector": "Gas & LPG",
+        "difficulty": "EASY",
+        "product": "Instantaneous Domestic Water Heater for use with Liquefied Petroleum Gas"
+      },
+      {
+        "query_id": "syn_000185",
+        "query": "Competitive bids invited for supply of domestic RO drinking water treatment appliances intended for drinking water treatment.",
+        "gt_sector_original": "Water Treatment",
+        "gt_sector_normalized": "Water Treatment",
+        "predicted_sector": "Electrical",
+        "difficulty": "NORMAL",
+        "product": "Reverse Osmosis Based Point of Use Water Treatment System for Drinking Purposes"
+      },
+      {
+        "query_id": "syn_000214",
+        "query": "Competitive bids invited for supply of domestic instantaneous gas water heaters for LPG intended for domestic kitchen appliances.",
+        "gt_sector_original": "Kitchen Appliances",
+        "gt_sector_normalized": "Kitchen Appliances",
+        "predicted_sector": "Gas & LPG",
+        "difficulty": "NORMAL",
+        "product": "Instantaneous Domestic Water Heater for use with Liquefied Petroleum Gas"
+      },
+      {
+        "query_id": "syn_000219",
+        "query": "Notice Inviting Tender for supply and inspection of portable fire extinguishing appliances for building fire safety required for fire protection.",
+        "gt_sector_original": "Fire Safety",
+        "gt_sector_normalized": "Fire Safety",
+        "predicted_sector": "Electrical",
+        "difficulty": "NORMAL",
+        "product": "Portable Fire Extinguishers - Performance and Construction"
+      },
+      {
+        "query_id": "syn_000243",
+        "query": "Competitive bids invited for supply of household refrigerating appliances general requirements intended for refrigeration and cold storage.",
+        "gt_sector_original": "Refrigeration",
+        "gt_sector_normalized": "Refrigeration",
+        "predicted_sector": "Electrical",
+        "difficulty": "NORMAL",
+        "product": "Household Refrigerating Appliances - Characteristics and Test Methods Part 1: General Requirements"
+      },
+      {
+        "query_id": "syn_000256",
+        "query": "Tender for the supply and commissioning of gas-fired instantaneous water heaters for liquefied petroleum gas for use for domestic kitchen appliances.",
+        "gt_sector_original": "Kitchen Appliances",
+        "gt_sector_normalized": "Kitchen Appliances",
+        "predicted_sector": "Gas & LPG",
+        "difficulty": "NORMAL",
+        "product": "Instantaneous Domestic Water Heater for use with Liquefied Petroleum Gas"
+      },
+      {
+        "query_id": "syn_000339",
+        "query": "Tender for the supply and commissioning of domestic refrigerators and food preservation appliances for use for refrigeration and cold storage.",
+        "gt_sector_original": "Refrigeration",
+        "gt_sector_normalized": "Refrigeration",
+        "predicted_sector": "Electrical",
+        "difficulty": "NORMAL",
+        "product": "Household Refrigerating Appliances - Characteristics and Test Methods Part 1: General Requirements"
+      },
+      {
+        "query_id": "syn_000343",
+        "query": "Requisition for supply of instantaneous domestic water heaters for use with LPG to satisfy requirements for domestic kitchen appliances.",
+        "gt_sector_original": "Kitchen Appliances",
+        "gt_sector_normalized": "Kitchen Appliances",
+        "predicted_sector": "Gas & LPG",
+        "difficulty": "NORMAL",
+        "product": "Instantaneous Domestic Water Heater for use with Liquefied Petroleum Gas"
+      }
+    ],
+    "normalization_errors": [
+      {
+        "query_id": "syn_000404",
+        "query": "Bids invited for supply of emergency power cables with thermosetting insulation for critical fire survival electrical installations for immediate deployment.",
+        "gt_sector_original": "Solar & Cables",
+        "gt_sector_normalized": "Fire Survival Cables",
+        "predicted_sector": "Electrical",
+        "difficulty": "HARD",
+        "product": "Thermosetting Insulated, Fire Survival Cables for working voltage up to and including 1100 V AC and 1500 V DC"
+      }
+    ],
+    "ambiguity_cases": [
+      {
+        "query_id": "syn_000048",
+        "query": "Notice Inviting Tender for supply of Live Working Gloves of Insulating Material for electrical installations.",
+        "gt_sector_original": "Electrical Accessories",
+        "gt_sector_normalized": "Electrical Accessories",
+        "predicted_sector": "Electrical",
+        "difficulty": "EASY",
+        "product": "Live Working Gloves of Insulating Material"
+      },
+      {
+        "query_id": "syn_000064",
+        "query": "Notice Inviting Tender for supply of Boxes and Enclosures for Electrical Accessories for Household and Similar Fixed Electrical Installations for electrical installations.",
+        "gt_sector_original": "Electrical Accessories",
+        "gt_sector_normalized": "Electrical Accessories",
+        "predicted_sector": "Electrical",
+        "difficulty": "EASY",
+        "product": "Boxes and Enclosures for Electrical Accessories for Household and Similar Fixed Electrical Installations"
+      },
+      {
+        "query_id": "syn_000118",
+        "query": "Notice Inviting Tender for procurement of Boxes and Enclosures for Electrical Accessories for Household and Similar Fixed Electrical Installations required for electrical installations.",
+        "gt_sector_original": "Electrical Accessories",
+        "gt_sector_normalized": "Electrical Accessories",
+        "predicted_sector": "Electrical",
+        "difficulty": "EASY",
+        "product": "Boxes and Enclosures for Electrical Accessories for Household and Similar Fixed Electrical Installations"
+      },
+      {
+        "query_id": "syn_000141",
+        "query": "Notice Inviting Tender for procurement of Live Working Gloves of Insulating Material required for electrical installations.",
+        "gt_sector_original": "Electrical Accessories",
+        "gt_sector_normalized": "Electrical Accessories",
+        "predicted_sector": "Electrical",
+        "difficulty": "EASY",
+        "product": "Live Working Gloves of Insulating Material"
+      },
+      {
+        "query_id": "syn_000155",
+        "query": "Notice Inviting Tender for supply and inspection of domestic hand-held kitchen food blenders required for domestic kitchen appliances.",
+        "gt_sector_original": "Kitchen Appliances",
+        "gt_sector_normalized": "Kitchen Appliances",
+        "predicted_sector": "Electrical",
+        "difficulty": "NORMAL",
+        "product": "Hand-held Blender"
+      },
+      {
+        "query_id": "syn_000175",
+        "query": "Competitive bids invited for supply of modular accessory back-boxes for fixed electrical wiring intended for electrical installations.",
+        "gt_sector_original": "Electrical Accessories",
+        "gt_sector_normalized": "Electrical Accessories",
+        "predicted_sector": "Electrical",
+        "difficulty": "NORMAL",
+        "product": "Boxes and Enclosures for Electrical Accessories for Household and Similar Fixed Electrical Installations"
+      },
+      {
+        "query_id": "syn_000179",
+        "query": "Notice Inviting Tender for supply and inspection of domestic electric refrigerators for food cold storage required for refrigeration and cold storage.",
+        "gt_sector_original": "Refrigeration",
+        "gt_sector_normalized": "Refrigeration",
+        "predicted_sector": "Kitchen Appliances",
+        "difficulty": "NORMAL",
+        "product": "Household Refrigerating Appliances - Characteristics and Test Methods Part 1: General Requirements"
+      },
+      {
+        "query_id": "syn_000207",
+        "query": "Competitive bids invited for supply of welded structural steel hollow tubes intended for water, gas or structural piping.",
+        "gt_sector_original": "Pipes & Water",
+        "gt_sector_normalized": "Structural Steel Tubes",
+        "predicted_sector": "Steel",
+        "difficulty": "NORMAL",
+        "product": "Steel tubes for structural purposes"
+      },
+      {
+        "query_id": "syn_000239",
+        "query": "Competitive bids invited for supply of electrical insulating rubber gloves for live power work intended for electrical installations.",
+        "gt_sector_original": "Electrical Accessories",
+        "gt_sector_normalized": "Electrical Accessories",
+        "predicted_sector": "Electrical",
+        "difficulty": "NORMAL",
+        "product": "Live Working Gloves of Insulating Material"
+      },
+      {
+        "query_id": "syn_000247",
+        "query": "Tender for the supply and commissioning of ceiling-mounted electric cooling fans with speed regulators for use for electrical installations and appliances.",
+        "gt_sector_original": "Electrical",
+        "gt_sector_normalized": "Electrical",
+        "predicted_sector": "HVAC",
+        "difficulty": "NORMAL",
+        "product": "Specification for electric ceiling type fans and regulators"
+      }
+    ],
+    "missing_sector_cases": [
+      {
+        "query_id": "syn_000016",
+        "query": "Notice Inviting Tender for supply of Glass beakers for laboratory measurement and handling.",
+        "gt_sector_original": "Laboratory Glassware",
+        "gt_sector_normalized": "Laboratory Glassware",
+        "predicted_sector": null,
+        "difficulty": "EASY",
+        "product": "Glass beakers"
+      },
+      {
+        "query_id": "syn_000022",
+        "query": "Notice Inviting Tender for supply of Centrifugally cast (spun) ductile iron pressure pipes for water, gas and sewage for construction and engineering.",
+        "gt_sector_original": "Steel",
+        "gt_sector_normalized": "Steel",
+        "predicted_sector": null,
+        "difficulty": "EASY",
+        "product": "Centrifugally cast (spun) ductile iron pressure pipes for water, gas and sewage"
+      },
+      {
+        "query_id": "syn_000033",
+        "query": "Notice Inviting Tender for supply of Stress-Relieved, Low Relaxation Steel Wire for Pre-stressed Concrete for construction and engineering.",
+        "gt_sector_original": "Steel",
+        "gt_sector_normalized": "Steel",
+        "predicted_sector": null,
+        "difficulty": "EASY",
+        "product": "Stress-Relieved, Low Relaxation Steel Wire for Pre-stressed Concrete"
+      },
+      {
+        "query_id": "syn_000034",
+        "query": "Notice Inviting Tender for supply of Ductile iron fittings for pressure pipes for water, gas and sewage for water, gas or structural piping.",
+        "gt_sector_original": "Pipes & Water",
+        "gt_sector_normalized": "Pipe Fittings",
+        "predicted_sector": null,
+        "difficulty": "EASY",
+        "product": "Ductile iron fittings for pressure pipes for water, gas and sewage"
+      },
+      {
+        "query_id": "syn_000045",
+        "query": "Notice Inviting Tender for supply of High Density Polyethylene (HDPE) laminated woven lay flat tube for irrigation purpose for agriculture and irrigation.",
+        "gt_sector_original": "Agriculture",
+        "gt_sector_normalized": "Agriculture",
+        "predicted_sector": null,
+        "difficulty": "EASY",
+        "product": "High Density Polyethylene (HDPE) laminated woven lay flat tube for irrigation purpose"
+      },
+      {
+        "query_id": "syn_000061",
+        "query": "Notice Inviting Tender for supply of Copper Tubes for plumbing for electrical and plumbing and engineering.",
+        "gt_sector_original": "Copper",
+        "gt_sector_normalized": "Copper",
+        "predicted_sector": null,
+        "difficulty": "EASY",
+        "product": "Copper Tubes for plumbing"
+      },
+      {
+        "query_id": "syn_000070",
+        "query": "Notice Inviting Tender for supply of Freezers for refrigeration and cold storage.",
+        "gt_sector_original": "Refrigeration",
+        "gt_sector_normalized": "Refrigeration",
+        "predicted_sector": null,
+        "difficulty": "EASY",
+        "product": "Freezers"
+      },
+      {
+        "query_id": "syn_000073",
+        "query": "Notice Inviting Tender for supply of Copper Rods and Bars for Electrical Purposes for electrical and plumbing and engineering.",
+        "gt_sector_original": "Copper",
+        "gt_sector_normalized": "Copper",
+        "predicted_sector": null,
+        "difficulty": "EASY",
+        "product": "Copper Rods and Bars for Electrical Purposes"
+      },
+      {
+        "query_id": "syn_000081",
+        "query": "Notice Inviting Tender for supply of Steel tubes used for water-wells (up to 200 mm dia) for water, gas or structural piping.",
+        "gt_sector_original": "Pipes & Water",
+        "gt_sector_normalized": "Water Well Casing Tubes",
+        "predicted_sector": null,
+        "difficulty": "EASY",
+        "product": "Steel tubes used for water-wells (up to 200 mm dia)"
+      },
+      {
+        "query_id": "syn_000089",
+        "query": "Notice Inviting Tender for supply of Steel tubes for structural purposes for water, gas or structural piping.",
+        "gt_sector_original": "Pipes & Water",
+        "gt_sector_normalized": "Structural Steel Tubes",
+        "predicted_sector": null,
+        "difficulty": "EASY",
+        "product": "Steel tubes for structural purposes"
+      }
+    ]
+  }
+}

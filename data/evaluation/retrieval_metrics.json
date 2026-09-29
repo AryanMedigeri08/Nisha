@@ -1,0 +1,289 @@
+{
+  "evaluation_timestamp": "2026-09-29T05:41:13.588767+00:00",
+  "total_queries_evaluated": 500,
+  "overall_metrics": {
+    "BM25": {
+      "Recall@1": 0.914,
+      "Recall@5": 0.998,
+      "Recall@10": 1.0,
+      "Recall@20": 1.0,
+      "MRR": 0.95,
+      "NDCG@10": 0.9612
+    },
+    "Dense": {
+      "Recall@1": 0.928,
+      "Recall@5": 1.0,
+      "Recall@10": 1.0,
+      "Recall@20": 1.0,
+      "MRR": 0.962,
+      "NDCG@10": 0.9707
+    },
+    "RRF": {
+      "Recall@1": 0.934,
+      "Recall@5": 1.0,
+      "Recall@10": 1.0,
+      "Recall@20": 1.0,
+      "MRR": 0.9648,
+      "NDCG@10": 0.973
+    },
+    "Hybrid_Reranked": {
+      "Recall@1": 0.958,
+      "Recall@5": 1.0,
+      "Recall@10": 1.0,
+      "MRR": 0.977,
+      "NDCG@10": 0.9817
+    }
+  },
+  "difficulty_breakdown": {
+    "EASY": {
+      "query_count": 150,
+      "BM25_R@5": 1.0,
+      "Dense_R@5": 1.0,
+      "RRF_R@5": 1.0,
+      "Hybrid_R@1": 0.98,
+      "Hybrid_R@5": 1.0,
+      "Hybrid_R@10": 1.0,
+      "Hybrid_MRR": 0.9889,
+      "Hybrid_NDCG@10": 0.991
+    },
+    "NORMAL": {
+      "query_count": 200,
+      "BM25_R@5": 1.0,
+      "Dense_R@5": 1.0,
+      "RRF_R@5": 1.0,
+      "Hybrid_R@1": 0.95,
+      "Hybrid_R@5": 1.0,
+      "Hybrid_R@10": 1.0,
+      "Hybrid_MRR": 0.9733,
+      "Hybrid_NDCG@10": 0.9794
+    },
+    "HARD": {
+      "query_count": 100,
+      "BM25_R@5": 0.99,
+      "Dense_R@5": 1.0,
+      "RRF_R@5": 1.0,
+      "Hybrid_R@1": 0.92,
+      "Hybrid_R@5": 1.0,
+      "Hybrid_R@10": 1.0,
+      "Hybrid_MRR": 0.955,
+      "Hybrid_NDCG@10": 0.9631
+    },
+    "NEAR_MATCH": {
+      "query_count": 50,
+      "BM25_R@5": 1.0,
+      "Dense_R@5": 1.0,
+      "RRF_R@5": 1.0,
+      "Hybrid_R@1": 1.0,
+      "Hybrid_R@5": 1.0,
+      "Hybrid_R@10": 1.0,
+      "Hybrid_MRR": 1.0,
+      "Hybrid_NDCG@10": 1.0
+    }
+  },
+  "sector_breakdown": {
+    "Agriculture": {
+      "query_count": 15,
+      "Recall@1": 0.8667,
+      "Recall@5": 1.0,
+      "Recall@10": 1.0,
+      "MRR": 0.9333,
+      "NDCG@10": 0.9508
+    },
+    "Cast Iron": {
+      "query_count": 18,
+      "Recall@1": 1.0,
+      "Recall@5": 1.0,
+      "Recall@10": 1.0,
+      "MRR": 1.0,
+      "NDCG@10": 1.0
+    },
+    "Cement": {
+      "query_count": 49,
+      "Recall@1": 0.9592,
+      "Recall@5": 1.0,
+      "Recall@10": 1.0,
+      "MRR": 0.9796,
+      "NDCG@10": 0.9849
+    },
+    "Chemicals": {
+      "query_count": 22,
+      "Recall@1": 1.0,
+      "Recall@5": 1.0,
+      "Recall@10": 1.0,
+      "MRR": 1.0,
+      "NDCG@10": 1.0
+    },
+    "Copper": {
+      "query_count": 14,
+      "Recall@1": 1.0,
+      "Recall@5": 1.0,
+      "Recall@10": 1.0,
+      "MRR": 1.0,
+      "NDCG@10": 1.0
+    },
+    "Door Fittings": {
+      "query_count": 9,
+      "Recall@1": 1.0,
+      "Recall@5": 1.0,
+      "Recall@10": 1.0,
+      "MRR": 1.0,
+      "NDCG@10": 1.0
+    },
+    "Electrical": {
+      "query_count": 78,
+      "Recall@1": 0.9744,
+      "Recall@5": 1.0,
+      "Recall@10": 1.0,
+      "MRR": 0.985,
+      "NDCG@10": 0.9809
+    },
+    "Electrical Accessories": {
+      "query_count": 23,
+      "Recall@1": 1.0,
+      "Recall@5": 1.0,
+      "Recall@10": 1.0,
+      "MRR": 1.0,
+      "NDCG@10": 1.0
+    },
+    "Fire Safety": {
+      "query_count": 10,
+      "Recall@1": 1.0,
+      "Recall@5": 1.0,
+      "Recall@10": 1.0,
+      "MRR": 1.0,
+      "NDCG@10": 1.0
+    },
+    "Footwear/PPE": {
+      "query_count": 19,
+      "Recall@1": 1.0,
+      "Recall@5": 1.0,
+      "Recall@10": 1.0,
+      "MRR": 1.0,
+      "NDCG@10": 1.0
+    },
+    "Gas & LPG": {
+      "query_count": 31,
+      "Recall@1": 0.9355,
+      "Recall@5": 1.0,
+      "Recall@10": 1.0,
+      "MRR": 0.9624,
+      "NDCG@10": 0.972
+    },
+    "HVAC": {
+      "query_count": 28,
+      "Recall@1": 0.9286,
+      "Recall@5": 1.0,
+      "Recall@10": 1.0,
+      "MRR": 0.9583,
+      "NDCG@10": 0.969
+    },
+    "Kitchen Appliances": {
+      "query_count": 16,
+      "Recall@1": 0.9375,
+      "Recall@5": 1.0,
+      "Recall@10": 1.0,
+      "MRR": 0.9688,
+      "NDCG@10": 0.9769
+    },
+    "Laboratory Glassware": {
+      "query_count": 17,
+      "Recall@1": 1.0,
+      "Recall@5": 1.0,
+      "Recall@10": 1.0,
+      "MRR": 1.0,
+      "NDCG@10": 1.0
+    },
+    "Medical": {
+      "query_count": 16,
+      "Recall@1": 1.0,
+      "Recall@5": 1.0,
+      "Recall@10": 1.0,
+      "MRR": 1.0,
+      "NDCG@10": 1.0
+    },
+    "Pipes & Water": {
+      "query_count": 22,
+      "Recall@1": 0.8182,
+      "Recall@5": 1.0,
+      "Recall@10": 1.0,
+      "MRR": 0.8864,
+      "NDCG@10": 0.915
+    },
+    "Refrigeration": {
+      "query_count": 9,
+      "Recall@1": 0.8889,
+      "Recall@5": 1.0,
+      "Recall@10": 1.0,
+      "MRR": 0.9444,
+      "NDCG@10": 0.959
+    },
+    "Solar & Cables": {
+      "query_count": 10,
+      "Recall@1": 1.0,
+      "Recall@5": 1.0,
+      "Recall@10": 1.0,
+      "MRR": 1.0,
+      "NDCG@10": 1.0
+    },
+    "Steel": {
+      "query_count": 42,
+      "Recall@1": 0.9524,
+      "Recall@5": 1.0,
+      "Recall@10": 1.0,
+      "MRR": 0.9762,
+      "NDCG@10": 0.9824
+    },
+    "Transformers & Motors": {
+      "query_count": 22,
+      "Recall@1": 0.9545,
+      "Recall@5": 1.0,
+      "Recall@10": 1.0,
+      "MRR": 0.9773,
+      "NDCG@10": 0.9832
+    },
+    "Water Treatment": {
+      "query_count": 6,
+      "Recall@1": 1.0,
+      "Recall@5": 1.0,
+      "Recall@10": 1.0,
+      "MRR": 1.0,
+      "NDCG@10": 1.0
+    },
+    "Wood Products": {
+      "query_count": 24,
+      "Recall@1": 0.9167,
+      "Recall@5": 1.0,
+      "Recall@10": 1.0,
+      "MRR": 0.9583,
+      "NDCG@10": 0.9692
+    }
+  },
+  "candidate_recall": {
+    "bm25_recall_at_20": 1.0,
+    "dense_recall_at_20": 1.0,
+    "rrf_recall_at_20": 1.0
+  },
+  "near_match_summary": {
+    "total_queries": 50,
+    "primary_at_rank_1_rate": 1.0,
+    "primary_ranked_above_near_matches_rate": 1.0
+  },
+  "error_summary": {
+    "PRIMARY_NOT_RETRIEVED": 0,
+    "PRIMARY_RANKED_TOO_LOW": 21,
+    "SEMANTIC_NEAR_MATCH_CONFUSION": 0,
+    "LEXICAL_MISMATCH": 0,
+    "SECTOR_CONFUSION": 2,
+    "PRODUCT_CONFUSION": 14,
+    "APPLICATION_CONFUSION": 0,
+    "PARAMETER_MISMATCH": 5,
+    "MULTI_SECTOR_AMBIGUITY": 0
+  },
+  "latency_profile": {
+    "bm25_latency_ms": 0.63,
+    "dense_latency_ms": 10.15,
+    "rrf_latency_ms": 0.14,
+    "reranker_latency_ms": 136.2,
+    "total_latency_ms": 150.16
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "evaluation_timestamp": "2026-09-29T05:55:37.574466+00:00",
+  "total_queries_evaluated": 500,
+  "total_candidates_resolved": 5000,
+  "reference_resolution": {
+    "resolvable_references": 1,
+    "resolved_references": 1,
+    "reference_resolution_accuracy": 1.0,
+    "unresolved_reference_count": 2,
+    "ambiguous_reference_count": 0
+  },
+  "standard_identity_normalization": {
+    "normalization_accuracy": 1.0,
+    "multi_part_standards_distinct": true
+  },
+  "qco_resolution": {
+    "total_seed_standards": 91,
+    "standards_with_qco_links": 91,
+    "qco_association_coverage": 1.0,
+    "verified_qco_associations": 0,
+    "associated_needs_verification": 91,
+    "unknown_or_missing_qco": 0
+  },
+  "version_status_resolution": {
+    "verified_current_count": 0,
+    "needs_verification_count": 91,
+    "withdrawn_count": 0,
+    "superseded_count": 0,
+    "version_status_coverage": 1.0
+  },
+  "evidence_coverage": {
+    "percentage_claims_with_evidence": 1.0,
+    "zero_unsupported_claims": true
+  },
+  "applicability_state_distribution": {
+    "REGULATORYALLY_ASSOCIATED": 5000
+  },
+  "latency_profile_ms": {
+    "avg_graph_traversal_ms": 0.005,
+    "avg_version_resolution_ms": 0.005,
+    "avg_qco_resolution_ms": 0.035,
+    "avg_applicability_assessment_ms": 0.004,
+    "avg_phase5_per_query_ms": 0.49
+  }
+}

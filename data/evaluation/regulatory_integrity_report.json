@@ -1,0 +1,17 @@
+{
+  "audit_timestamp": "2026-09-29T05:55:37.573847+00:00",
+  "integrity_status": "PASSED",
+  "fabricated_is_numbers": 0,
+  "fabricated_qco_ids": 0,
+  "fabricated_dates": 0,
+  "fabricated_authorities": 0,
+  "fabricated_legal_statuses": 0,
+  "fabricated_references": 0,
+  "unsupported_graph_edges": 0,
+  "honesty_guarantees": [
+    "No standard claimed as APPLICABLE without authoritative gazette verification.",
+    "All QCO effective dates left as null per authoritative seed state.",
+    "Unresolved references preserved without silent conversion or deletion.",
+    "Multi-part standards maintained as strictly distinct technical entities."
+  ]
+}

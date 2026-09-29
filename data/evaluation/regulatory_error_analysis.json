@@ -1,0 +1,25 @@
+{
+  "unresolved_reference_count": 2,
+  "ambiguous_reference_count": 0,
+  "unresolved_cases": [
+    {
+      "case_id": "UNRESOLVED_REF_001",
+      "source_standard": "IS 374:2019",
+      "source_title": "Electric Ceiling Type Fans",
+      "cited_target": "IS 302 : Part 2 : Sec 80 (2017)",
+      "reference_type": "safety/particular_requirements",
+      "reason": "Target standard 'IS 302 : Part 2 : Sec 80 (2017)' specifies particular requirements for electric fans, which is an external standard not included in the 91-standard bootstrap seed.",
+      "handling": "Preserved in graph as ReferenceNode with status UNRESOLVED. Never converted into dummy standard."
+    },
+    {
+      "case_id": "UNRESOLVED_REF_002",
+      "source_standard": "IS 302 : Part 2 : Sec 80 (2017)",
+      "cited_target": "IS 302 : Part 1 (2024)",
+      "target_title": "Household and Similar Electrical Appliances - Safety Part 1 General Requirements",
+      "reference_type": "general_requirements",
+      "reason": "Source standard 'IS 302 : Part 2 : Sec 80 (2017)' is an external standard outside the 91 seed standards citing the general safety framework standard IS 302-1.",
+      "handling": "Preserved in graph as ReferenceNode with status UNRESOLVED."
+    }
+  ],
+  "ambiguity_cases": []
+}

@@ -1,0 +1,1117 @@
+{
+  "standards": [
+    {
+      "id": 1,
+      "standard_id": "is_269",
+      "is_number": "IS 269",
+      "title": "Ordinary Portland Cement",
+      "sector": "Cement",
+      "application": "construction",
+      "materials": [
+        "cement"
+      ],
+      "technical_parameters": [],
+      "year": null
+    },
+    {
+      "id": 2,
+      "standard_id": "is_455",
+      "is_number": "IS 455",
+      "title": "Portland Slag Cement",
+      "sector": "Cement",
+      "application": "construction",
+      "materials": [
+        "cement"
+      ],
+      "technical_parameters": [],
+      "year": null
+    },
+    {
+      "id": 3,
+      "standard_id": "is_1489_part_1",
+      "is_number": "IS 1489 (Part 1)",
+      "title": "Portland Pozzolana Cement - Part 1 Fly-ash based",
+      "sector": "Cement",
+      "application": "construction",
+      "materials": [
+        "cement"
+      ],
+      "technical_parameters": [],
+      "year": null
+    },
+    {
+      "id": 4,
+      "standard_id": "is_1489_part_2",
+      "is_number": "IS 1489 (Part 2)",
+      "title": "Portland Pozzolana Cement - Part 2 Calcined clay based",
+      "sector": "Cement",
+      "application": "construction",
+      "materials": [
+        "cement"
+      ],
+      "technical_parameters": [],
+      "year": null
+    },
+    {
+      "id": 5,
+      "standard_id": "is_8041",
+      "is_number": "IS 8041",
+      "title": "Rapid hardening Portland cement",
+      "sector": "Cement",
+      "application": "construction",
+      "materials": [
+        "cement"
+      ],
+      "technical_parameters": [],
+      "year": null
+    },
+    {
+      "id": 6,
+      "standard_id": "is_8042",
+      "is_number": "IS 8042",
+      "title": "White Portland Cement",
+      "sector": "Cement",
+      "application": "construction",
+      "materials": [
+        "cement"
+      ],
+      "technical_parameters": [],
+      "year": null
+    },
+    {
+      "id": 7,
+      "standard_id": "is_12330",
+      "is_number": "IS 12330",
+      "title": "Sulphate Resisting Portland Cement",
+      "sector": "Cement",
+      "application": "construction",
+      "materials": [
+        "cement"
+      ],
+      "technical_parameters": [],
+      "year": null
+    },
+    {
+      "id": 8,
+      "standard_id": "is_16415_2015",
+      "is_number": "IS 16415:2015",
+      "title": "Composite Cement - Specification",
+      "sector": "Cement",
+      "application": "construction",
+      "materials": [
+        "cement"
+      ],
+      "technical_parameters": [],
+      "year": 2015
+    },
+    {
+      "id": 9,
+      "standard_id": "is_12640_part_1",
+      "is_number": "IS 12640 (Part 1)",
+      "title": "Residual current operated circuit breakers for household and similar uses - Part 1: Circuit breakers without integral overcurrent protection (RCCBs)",
+      "sector": "Electrical",
+      "application": "electrical installations / appliances",
+      "materials": [],
+      "technical_parameters": [],
+      "year": null
+    },
+    {
+      "id": 10,
+      "standard_id": "is_12640_part_2",
+      "is_number": "IS 12640 (Part 2)",
+      "title": "Residual current operated circuit breakers for household and similar uses - Part 2: Circuit breakers with integral overcurrent protection (RCBOs)",
+      "sector": "Electrical",
+      "application": "electrical installations / appliances",
+      "materials": [],
+      "technical_parameters": [],
+      "year": null
+    },
+    {
+      "id": 11,
+      "standard_id": "is_13010",
+      "is_number": "IS 13010",
+      "title": "AC watt-hour meters, class 0.5, 1 & 2",
+      "sector": "Electrical",
+      "application": "electrical installations / appliances",
+      "materials": [],
+      "technical_parameters": [],
+      "year": null
+    },
+    {
+      "id": 12,
+      "standard_id": "is_13779",
+      "is_number": "IS 13779",
+      "title": "AC static watt-hour meters, class 1 & 2",
+      "sector": "Electrical",
+      "application": "electrical installations / appliances",
+      "materials": [],
+      "technical_parameters": [],
+      "year": null
+    },
+    {
+      "id": 13,
+      "standard_id": "is_15111_part_1_&_2",
+      "is_number": "IS 15111 (Part 1 & 2)",
+      "title": "Self Ballasted Lamps for General Lighting Services - Part 1: Safety Requirements & Part 2: Performance Requirements",
+      "sector": "Electrical",
+      "application": "electrical installations / appliances",
+      "materials": [],
+      "technical_parameters": [],
+      "year": null
+    },
+    {
+      "id": 14,
+      "standard_id": "is_302_part_2_sec_3",
+      "is_number": "IS 302 (Part 2/Sec 3)",
+      "title": "Safety of household and similar electrical appliances - Electric iron",
+      "sector": "Electrical",
+      "application": "electrical installations / appliances",
+      "materials": [
+        "iron"
+      ],
+      "technical_parameters": [],
+      "year": null
+    },
+    {
+      "id": 15,
+      "standard_id": "is_302_part_2_sec_201",
+      "is_number": "IS 302 (Part 2/Sec 201)",
+      "title": "Safety of household and similar electrical appliances - Electric immersion water-heaters",
+      "sector": "Electrical",
+      "application": "electrical installations / appliances",
+      "materials": [],
+      "technical_parameters": [],
+      "year": null
+    },
+    {
+      "id": 16,
+      "standard_id": "is_302_part_2_sec_202",
+      "is_number": "IS 302 (Part 2/Sec 202)",
+      "title": "Safety of household and similar electrical appliances - Electric stoves",
+      "sector": "Electrical",
+      "application": "electrical installations / appliances",
+      "materials": [],
+      "technical_parameters": [],
+      "year": null
+    },
+    {
+      "id": 17,
+      "standard_id": "is_302_part_2_sec_30",
+      "is_number": "IS 302 (Part 2/Sec 30)",
+      "title": "Safety of household and similar electrical appliances - Room heaters",
+      "sector": "Electrical",
+      "application": "electrical installations / appliances",
+      "materials": [],
+      "technical_parameters": [],
+      "year": null
+    },
+    {
+      "id": 18,
+      "standard_id": "is_3854",
+      "is_number": "IS 3854",
+      "title": "Switches for domestic and similar purposes",
+      "sector": "Electrical",
+      "application": "electrical installations / appliances",
+      "materials": [],
+      "technical_parameters": [],
+      "year": null
+    },
+    {
+      "id": 19,
+      "standard_id": "is_694",
+      "is_number": "IS 694",
+      "title": "PVC insulated cables for working voltages up to and including 1100 V",
+      "sector": "Electrical",
+      "application": "electrical installations / appliances",
+      "materials": [
+        "pvc"
+      ],
+      "technical_parameters": [
+        "voltage",
+        "1100 V"
+      ],
+      "year": null
+    },
+    {
+      "id": 20,
+      "standard_id": "is_374_2019",
+      "is_number": "IS 374:2019",
+      "title": "Specification for electric ceiling type fans and regulators (Third Revision)",
+      "sector": "Electrical",
+      "application": "electrical installations / appliances",
+      "materials": [],
+      "technical_parameters": [],
+      "year": 2019
+    },
+    {
+      "id": 21,
+      "standard_id": "is_302___part_1_2024",
+      "is_number": "IS 302 : Part 1 (2024)",
+      "title": "Household and Similar Electrical Appliances - Safety Part 1 General Requirements (Seventh Revision)",
+      "sector": "Electrical",
+      "application": "electrical installations / appliances",
+      "materials": [],
+      "technical_parameters": [],
+      "year": 2024
+    },
+    {
+      "id": 22,
+      "standard_id": "is_4246_2025",
+      "is_number": "IS 4246:2025",
+      "title": "Domestic gas stove and built in hob for use with LPG - Specification (Sixth Revision)",
+      "sector": "Gas & LPG",
+      "application": "gas and LPG systems",
+      "materials": [
+        "lpg"
+      ],
+      "technical_parameters": [],
+      "year": 2025
+    },
+    {
+      "id": 23,
+      "standard_id": "is_17153_2019",
+      "is_number": "IS 17153:2019",
+      "title": "Domestic Gas Stoves for use with Piped Natural Gas (PNG) - Specification",
+      "sector": "Gas & LPG",
+      "application": "gas and LPG systems",
+      "materials": [],
+      "technical_parameters": [],
+      "year": 2019
+    },
+    {
+      "id": 24,
+      "standard_id": "is_3196_part_1",
+      "is_number": "IS 3196 (Part 1)",
+      "title": "Welded low carbon steel gas cylinder exceeding 5 litre water capacity - Part 1: Cylinders for liquefied petroleum gas (LPG)",
+      "sector": "Gas & LPG",
+      "application": "gas and LPG systems",
+      "materials": [
+        "steel",
+        "lpg",
+        "carbon"
+      ],
+      "technical_parameters": [
+        "water capacity"
+      ],
+      "year": null
+    },
+    {
+      "id": 25,
+      "standard_id": "is_3224",
+      "is_number": "IS 3224",
+      "title": "Valve fittings for compressed gas cylinder excluding liquefied petroleum gas cylinders",
+      "sector": "Gas & LPG",
+      "application": "gas and LPG systems",
+      "materials": [],
+      "technical_parameters": [],
+      "year": null
+    },
+    {
+      "id": 26,
+      "standard_id": "is_7285_part_1",
+      "is_number": "IS 7285 (Part 1)",
+      "title": "Refillable Seamless Steel Gas Cylinders - Part 1: Normalized Steel Cylinders",
+      "sector": "Gas & LPG",
+      "application": "gas and LPG systems",
+      "materials": [
+        "steel"
+      ],
+      "technical_parameters": [],
+      "year": null
+    },
+    {
+      "id": 27,
+      "standard_id": "is_9798",
+      "is_number": "IS 9798",
+      "title": "Low pressure regulators for use with liquefied petroleum gas (LPG) mixtures",
+      "sector": "Gas & LPG",
+      "application": "gas and LPG systems",
+      "materials": [
+        "lpg"
+      ],
+      "technical_parameters": [],
+      "year": null
+    },
+    {
+      "id": 28,
+      "standard_id": "is_15683_2018",
+      "is_number": "IS 15683:2018",
+      "title": "Portable Fire Extinguishers - Performance and Construction - Specification (First Revision)",
+      "sector": "Fire Safety",
+      "application": "fire protection",
+      "materials": [],
+      "technical_parameters": [],
+      "year": 2018
+    },
+    {
+      "id": 29,
+      "standard_id": "is_16018_2012",
+      "is_number": "IS 16018:2012",
+      "title": "Wheeled Fire Extinguishers",
+      "sector": "Fire Safety",
+      "application": "fire protection",
+      "materials": [],
+      "technical_parameters": [],
+      "year": 2012
+    },
+    {
+      "id": 30,
+      "standard_id": "is_3055_part_1",
+      "is_number": "IS 3055 (Part 1)",
+      "title": "Clinical thermometers - Part 1: Solid stem type",
+      "sector": "Medical",
+      "application": "medical equipment",
+      "materials": [],
+      "technical_parameters": [],
+      "year": null
+    },
+    {
+      "id": 31,
+      "standard_id": "is_3055_part_2",
+      "is_number": "IS 3055 (Part 2)",
+      "title": "Clinical thermometers - Part 2: Enclosed scale type",
+      "sector": "Medical",
+      "application": "medical equipment",
+      "materials": [],
+      "technical_parameters": [],
+      "year": null
+    },
+    {
+      "id": 32,
+      "standard_id": "is_7620_part_1",
+      "is_number": "IS 7620 (Part 1)",
+      "title": "Diagnostic Medical X-Ray Equipment",
+      "sector": "Medical",
+      "application": "medical equipment",
+      "materials": [],
+      "technical_parameters": [],
+      "year": null
+    },
+    {
+      "id": 33,
+      "standard_id": "is_15911_2010",
+      "is_number": "IS 15911:2010",
+      "title": "Structural Steel (Ordinary Quality)",
+      "sector": "Steel",
+      "application": "construction / engineering",
+      "materials": [
+        "steel"
+      ],
+      "technical_parameters": [],
+      "year": 2010
+    },
+    {
+      "id": 34,
+      "standard_id": "is_16644_2018",
+      "is_number": "IS 16644:2018",
+      "title": "Stress-Relieved, Low Relaxation Steel Wire for Pre-stressed Concrete",
+      "sector": "Steel",
+      "application": "construction / engineering",
+      "materials": [
+        "steel"
+      ],
+      "technical_parameters": [],
+      "year": 2018
+    },
+    {
+      "id": 35,
+      "standard_id": "is_17404_2020",
+      "is_number": "IS 17404:2020",
+      "title": "Electrogalvanized Hot Rolled and Cold Reduced Carbon Steel Sheets and Strips",
+      "sector": "Steel",
+      "application": "construction / engineering",
+      "materials": [
+        "steel",
+        "carbon"
+      ],
+      "technical_parameters": [],
+      "year": 2020
+    },
+    {
+      "id": 36,
+      "standard_id": "is_18316_2023",
+      "is_number": "IS 18316:2023",
+      "title": "Hot Rolled and Cold Rolled Steel Strips Intended For Processing Of Semi/Fully Processed NonGrain Oriented Electrical Steel Or Fully Processed Grain Oriented Electrical Steel",
+      "sector": "Steel",
+      "application": "construction / engineering",
+      "materials": [
+        "steel"
+      ],
+      "technical_parameters": [],
+      "year": 2023
+    },
+    {
+      "id": 37,
+      "standard_id": "is_18384_2023",
+      "is_number": "IS 18384:2023",
+      "title": "Hot-Rolled Steel Strip, Sheet and Plates for Welded Steel Pipe for Pipeline Transportation Systems",
+      "sector": "Steel",
+      "application": "construction / engineering",
+      "materials": [
+        "steel"
+      ],
+      "technical_parameters": [],
+      "year": 2023
+    },
+    {
+      "id": 38,
+      "standard_id": "is_18385_2023",
+      "is_number": "IS 18385:2023",
+      "title": "Hot-Dip galvanized/ galvannealed Steel Sheet and strips for Automotive Applications",
+      "sector": "Steel",
+      "application": "construction / engineering",
+      "materials": [
+        "steel"
+      ],
+      "technical_parameters": [],
+      "year": 2023
+    },
+    {
+      "id": 39,
+      "standard_id": "is_18513_2023",
+      "is_number": "IS 18513:2023",
+      "title": "Hot-Dip Zinc - Aluminium - Magnesium Alloy Coated Steel Sheets, Plates and Strips",
+      "sector": "Steel",
+      "application": "construction / engineering",
+      "materials": [
+        "steel",
+        "aluminium"
+      ],
+      "technical_parameters": [],
+      "year": 2023
+    },
+    {
+      "id": 40,
+      "standard_id": "is_8329_2000",
+      "is_number": "IS 8329:2000",
+      "title": "Centrifugally cast (spun) ductile iron pressure pipes for water, gas and sewage",
+      "sector": "Steel",
+      "application": "construction / engineering",
+      "materials": [
+        "iron"
+      ],
+      "technical_parameters": [],
+      "year": 2000
+    },
+    {
+      "id": 41,
+      "standard_id": "is_9523_2000",
+      "is_number": "IS 9523:2000",
+      "title": "Ductile iron fittings for pressure pipes for water, gas and sewage",
+      "sector": "Pipes & Water",
+      "application": "water, gas or structural piping",
+      "materials": [
+        "iron"
+      ],
+      "technical_parameters": [],
+      "year": 2000
+    },
+    {
+      "id": 42,
+      "standard_id": "is_1161_2014",
+      "is_number": "IS 1161:2014",
+      "title": "Steel tubes for structural purposes",
+      "sector": "Pipes & Water",
+      "application": "water, gas or structural piping",
+      "materials": [
+        "steel"
+      ],
+      "technical_parameters": [],
+      "year": 2014
+    },
+    {
+      "id": 43,
+      "standard_id": "is_1239_part_1_2014",
+      "is_number": "IS 1239 (Part 1):2014",
+      "title": "Steel Tubes, Tubulars and Other Wrought Steel Fittings - Part 1: Steel Tubes",
+      "sector": "Pipes & Water",
+      "application": "water, gas or structural piping",
+      "materials": [
+        "steel"
+      ],
+      "technical_parameters": [],
+      "year": 2014
+    },
+    {
+      "id": 44,
+      "standard_id": "is_4270_2001",
+      "is_number": "IS 4270:2001",
+      "title": "Steel tubes used for water-wells (up to 200 mm dia)",
+      "sector": "Pipes & Water",
+      "application": "water, gas or structural piping",
+      "materials": [
+        "steel"
+      ],
+      "technical_parameters": [
+        "200 mm"
+      ],
+      "year": 2001
+    },
+    {
+      "id": 45,
+      "standard_id": "is_1180_part_1",
+      "is_number": "IS 1180 (Part 1)",
+      "title": "Outdoor type oil immersed distribution transformers up to and including 2500 kVA, 33 kV - Part 1: Mineral oil immersed",
+      "sector": "Transformers & Motors",
+      "application": "electrical power systems",
+      "materials": [],
+      "technical_parameters": [
+        "kVA",
+        "2500 kVA",
+        "33 kV"
+      ],
+      "year": null
+    },
+    {
+      "id": 46,
+      "standard_id": "is_12615",
+      "is_number": "IS 12615",
+      "title": "Energy Efficient Induction Motors - Three Phase Squirrel Cage",
+      "sector": "Transformers & Motors",
+      "application": "electrical power systems",
+      "materials": [],
+      "technical_parameters": [],
+      "year": null
+    },
+    {
+      "id": 47,
+      "standard_id": "is_2993",
+      "is_number": "IS 2993",
+      "title": "A.C. motor capacitors",
+      "sector": "Transformers & Motors",
+      "application": "electrical power systems",
+      "materials": [],
+      "technical_parameters": [],
+      "year": null
+    },
+    {
+      "id": 48,
+      "standard_id": "is_13340",
+      "is_number": "IS 13340",
+      "title": "Power Capacitors of Self-healing Type for AC Power Systems having Rated Voltage up to 650 V",
+      "sector": "Transformers & Motors",
+      "application": "electrical power systems",
+      "materials": [],
+      "technical_parameters": [
+        "voltage"
+      ],
+      "year": null
+    },
+    {
+      "id": 49,
+      "standard_id": "is_252_2013",
+      "is_number": "IS 252:2013",
+      "title": "Caustic Soda - Specification",
+      "sector": "Chemicals",
+      "application": "chemical processing / industrial materials",
+      "materials": [],
+      "technical_parameters": [],
+      "year": 2013
+    },
+    {
+      "id": 50,
+      "standard_id": "is_10116_2015",
+      "is_number": "IS 10116:2015",
+      "title": "Boric Acid - Specification",
+      "sector": "Chemicals",
+      "application": "chemical processing / industrial materials",
+      "materials": [],
+      "technical_parameters": [],
+      "year": 2015
+    },
+    {
+      "id": 51,
+      "standard_id": "is_15573",
+      "is_number": "IS 15573",
+      "title": "Poly Aluminium Chloride",
+      "sector": "Chemicals",
+      "application": "chemical processing / industrial materials",
+      "materials": [
+        "aluminium"
+      ],
+      "technical_parameters": [],
+      "year": null
+    },
+    {
+      "id": 52,
+      "standard_id": "is_2833_2019",
+      "is_number": "IS 2833:2019",
+      "title": "Aniline",
+      "sector": "Chemicals",
+      "application": "chemical processing / industrial materials",
+      "materials": [],
+      "technical_parameters": [],
+      "year": 2019
+    },
+    {
+      "id": 53,
+      "standard_id": "is_302_part_2_section_14",
+      "is_number": "IS 302 (Part 2/Section 14)",
+      "title": "Hand-held Blender",
+      "sector": "Kitchen Appliances",
+      "application": "domestic kitchen appliances",
+      "materials": [],
+      "technical_parameters": [],
+      "year": null
+    },
+    {
+      "id": 54,
+      "standard_id": "is_4250",
+      "is_number": "IS 4250",
+      "title": "Domestic Electric Food Mixer (Liquidizers and Grinders) and Centrifugal Juicer",
+      "sector": "Kitchen Appliances",
+      "application": "domestic kitchen appliances",
+      "materials": [],
+      "technical_parameters": [],
+      "year": null
+    },
+    {
+      "id": 55,
+      "standard_id": "is_15558",
+      "is_number": "IS 15558",
+      "title": "Instantaneous Domestic Water Heater for use with Liquefied Petroleum Gas",
+      "sector": "Kitchen Appliances",
+      "application": "domestic kitchen appliances",
+      "materials": [],
+      "technical_parameters": [],
+      "year": null
+    },
+    {
+      "id": 56,
+      "standard_id": "is_1391_part_1_2017",
+      "is_number": "IS 1391 (Part-1):2017",
+      "title": "Room Air Conditioners - Specification Part 1: Unitary Air Conditioners",
+      "sector": "HVAC",
+      "application": "heating, ventilation and air conditioning",
+      "materials": [],
+      "technical_parameters": [],
+      "year": 2017
+    },
+    {
+      "id": 57,
+      "standard_id": "is_1391_part_2_2018",
+      "is_number": "IS 1391 (Part-2):2018",
+      "title": "Room Air Conditioners - Specification Part 2: Split Air Conditioners",
+      "sector": "HVAC",
+      "application": "heating, ventilation and air conditioning",
+      "materials": [],
+      "technical_parameters": [],
+      "year": 2018
+    },
+    {
+      "id": 58,
+      "standard_id": "is_8148_2018",
+      "is_number": "IS 8148:2018",
+      "title": "Ducted and Package Air Conditioners",
+      "sector": "HVAC",
+      "application": "heating, ventilation and air conditioning",
+      "materials": [],
+      "technical_parameters": [],
+      "year": 2018
+    },
+    {
+      "id": 59,
+      "standard_id": "is_11329_2018",
+      "is_number": "IS 11329:2018",
+      "title": "Finned type Heat Exchanger for Room Air Conditioner",
+      "sector": "HVAC",
+      "application": "heating, ventilation and air conditioning",
+      "materials": [],
+      "technical_parameters": [],
+      "year": 2018
+    },
+    {
+      "id": 60,
+      "standard_id": "is_10617_2018",
+      "is_number": "IS 10617:2018",
+      "title": "Hermetic compressor",
+      "sector": "HVAC",
+      "application": "heating, ventilation and air conditioning",
+      "materials": [],
+      "technical_parameters": [],
+      "year": 2018
+    },
+    {
+      "id": 61,
+      "standard_id": "is_15298_part_2_2016",
+      "is_number": "IS 15298 (Part 2):2016",
+      "title": "Personal protective equipment - Part 2: Safety Footwear",
+      "sector": "Footwear/PPE",
+      "application": "personal protective equipment",
+      "materials": [],
+      "technical_parameters": [],
+      "year": 2016
+    },
+    {
+      "id": 62,
+      "standard_id": "is_15298_part_3_2019",
+      "is_number": "IS 15298 (Part 3):2019",
+      "title": "Personal protective equipment - Part 3: Protective Footwear",
+      "sector": "Footwear/PPE",
+      "application": "personal protective equipment",
+      "materials": [],
+      "technical_parameters": [],
+      "year": 2019
+    },
+    {
+      "id": 63,
+      "standard_id": "is_15298_part_4_2017",
+      "is_number": "IS 15298 (Part 4):2017",
+      "title": "Personal protective equipment - Part 4: Occupational Footwear",
+      "sector": "Footwear/PPE",
+      "application": "personal protective equipment",
+      "materials": [],
+      "technical_parameters": [],
+      "year": 2017
+    },
+    {
+      "id": 64,
+      "standard_id": "is_4151_2015",
+      "is_number": "IS 4151:2015",
+      "title": "Helmet for riders of Two Wheeler Motor Vehicles",
+      "sector": "Footwear/PPE",
+      "application": "personal protective equipment",
+      "materials": [],
+      "technical_parameters": [],
+      "year": 2015
+    },
+    {
+      "id": 65,
+      "standard_id": "is_17550_part_1_2021",
+      "is_number": "IS 17550 (Part 1):2021",
+      "title": "Household Refrigerating Appliances - Characteristics and Test Methods Part 1: General Requirements",
+      "sector": "Refrigeration",
+      "application": "refrigeration / cold storage",
+      "materials": [],
+      "technical_parameters": [],
+      "year": 2021
+    },
+    {
+      "id": 66,
+      "standard_id": "is_7872_2018",
+      "is_number": "IS 7872:2018",
+      "title": "Freezers",
+      "sector": "Refrigeration",
+      "application": "refrigeration / cold storage",
+      "materials": [],
+      "technical_parameters": [],
+      "year": 2018
+    },
+    {
+      "id": 67,
+      "standard_id": "is_16240_2023",
+      "is_number": "IS 16240:2023",
+      "title": "Reverse Osmosis Based Point of Use Water Treatment System for Drinking Purposes",
+      "sector": "Water Treatment",
+      "application": "drinking water treatment",
+      "materials": [],
+      "technical_parameters": [],
+      "year": 2023
+    },
+    {
+      "id": 68,
+      "standard_id": "is_1659_2004",
+      "is_number": "IS 1659:2004",
+      "title": "Block Boards",
+      "sector": "Wood Products",
+      "application": "furniture / boards / interior products",
+      "materials": [],
+      "technical_parameters": [],
+      "year": 2004
+    },
+    {
+      "id": 69,
+      "standard_id": "is_12823_2015",
+      "is_number": "IS 12823:2015",
+      "title": "Prelaminated particle boards from wood and other lignocellulosic material",
+      "sector": "Wood Products",
+      "application": "furniture / boards / interior products",
+      "materials": [],
+      "technical_parameters": [],
+      "year": 2015
+    },
+    {
+      "id": 70,
+      "standard_id": "is_3087_2005",
+      "is_number": "IS 3087:2005",
+      "title": "Particle boards of wood and other lignocellulosic materials (medium density) for general purpose",
+      "sector": "Wood Products",
+      "application": "furniture / boards / interior products",
+      "materials": [],
+      "technical_parameters": [],
+      "year": 2005
+    },
+    {
+      "id": 71,
+      "standard_id": "is_12406_2021",
+      "is_number": "IS 12406:2021",
+      "title": "Medium density fibre boards for general purpose",
+      "sector": "Wood Products",
+      "application": "furniture / boards / interior products",
+      "materials": [],
+      "technical_parameters": [],
+      "year": 2021
+    },
+    {
+      "id": 72,
+      "standard_id": "is_1726_1991",
+      "is_number": "IS 1726:1991",
+      "title": "Cast iron manhole covers and frames",
+      "sector": "Cast Iron",
+      "application": "drainage / civil infrastructure",
+      "materials": [
+        "iron"
+      ],
+      "technical_parameters": [],
+      "year": 1991
+    },
+    {
+      "id": 73,
+      "standard_id": "is_1729_2002",
+      "is_number": "IS 1729:2002",
+      "title": "Cast iron/ductile iron drainage pipes and pipe fittings for over ground non-pressure pipelines socket and spigot series",
+      "sector": "Cast Iron",
+      "application": "drainage / civil infrastructure",
+      "materials": [
+        "iron"
+      ],
+      "technical_parameters": [],
+      "year": 2002
+    },
+    {
+      "id": 74,
+      "standard_id": "is_210_2009",
+      "is_number": "IS 210:2009",
+      "title": "Grey iron castings",
+      "sector": "Cast Iron",
+      "application": "drainage / civil infrastructure",
+      "materials": [
+        "iron"
+      ],
+      "technical_parameters": [],
+      "year": 2009
+    },
+    {
+      "id": 75,
+      "standard_id": "is_17293_2020",
+      "is_number": "IS 17293:2020",
+      "title": "Electric Cable for Photovoltaic Systems for rated voltage 1500 V DC",
+      "sector": "Solar & Cables",
+      "application": "solar and electrical cabling",
+      "materials": [],
+      "technical_parameters": [
+        "voltage",
+        "1500 V"
+      ],
+      "year": 2020
+    },
+    {
+      "id": 76,
+      "standard_id": "is_17505_part_1_2021",
+      "is_number": "IS 17505 (Part 1):2021",
+      "title": "Thermosetting Insulated, Fire Survival Cables for working voltage up to and including 1100 V AC and 1500 V DC",
+      "sector": "Solar & Cables",
+      "application": "solar and electrical cabling",
+      "materials": [],
+      "technical_parameters": [
+        "voltage",
+        "1500 V",
+        "1100 V"
+      ],
+      "year": 2021
+    },
+    {
+      "id": 77,
+      "standard_id": "is_878_2008",
+      "is_number": "IS 878:2008",
+      "title": "Laboratory glassware - Graduated measuring cylinders",
+      "sector": "Laboratory Glassware",
+      "application": "laboratory measurement / handling",
+      "materials": [
+        "glass"
+      ],
+      "technical_parameters": [],
+      "year": 2008
+    },
+    {
+      "id": 78,
+      "standard_id": "is_915_2012",
+      "is_number": "IS 915:2012",
+      "title": "Laboratory glassware - One-Mark volumetric flasks",
+      "sector": "Laboratory Glassware",
+      "application": "laboratory measurement / handling",
+      "materials": [
+        "glass"
+      ],
+      "technical_parameters": [],
+      "year": 2012
+    },
+    {
+      "id": 79,
+      "standard_id": "is_2619_2018",
+      "is_number": "IS 2619:2018",
+      "title": "Glass beakers",
+      "sector": "Laboratory Glassware",
+      "application": "laboratory measurement / handling",
+      "materials": [
+        "glass"
+      ],
+      "technical_parameters": [],
+      "year": 2018
+    },
+    {
+      "id": 80,
+      "standard_id": "is_14772_2020",
+      "is_number": "IS 14772:2020",
+      "title": "Boxes and Enclosures for Electrical Accessories for Household and Similar Fixed Electrical Installations",
+      "sector": "Electrical Accessories",
+      "application": "electrical installations",
+      "materials": [],
+      "technical_parameters": [],
+      "year": 2020
+    },
+    {
+      "id": 81,
+      "standard_id": "is_14927_part_2_2001",
+      "is_number": "IS 14927 (Part 2):2001",
+      "title": "Cable Trunking and Ducting Systems for Electrical Installations - Intended for mounting on walls or ceiling",
+      "sector": "Electrical Accessories",
+      "application": "electrical installations",
+      "materials": [],
+      "technical_parameters": [],
+      "year": 2001
+    },
+    {
+      "id": 82,
+      "standard_id": "is_1258_2005",
+      "is_number": "IS 1258:2005",
+      "title": "Bayonet Lamp Holders",
+      "sector": "Electrical Accessories",
+      "application": "electrical installations",
+      "materials": [],
+      "technical_parameters": [],
+      "year": 2005
+    },
+    {
+      "id": 83,
+      "standard_id": "is_13774_2021",
+      "is_number": "IS 13774:2021",
+      "title": "Live Working Gloves of Insulating Material",
+      "sector": "Electrical Accessories",
+      "application": "electrical installations",
+      "materials": [],
+      "technical_parameters": [],
+      "year": 2021
+    },
+    {
+      "id": 84,
+      "standard_id": "is_16190_2014",
+      "is_number": "IS 16190:2014",
+      "title": "High Density Polyethylene (HDPE) laminated woven lay flat tube for irrigation purpose",
+      "sector": "Agriculture",
+      "application": "agriculture / irrigation",
+      "materials": [
+        "polyethylene",
+        "hdpe"
+      ],
+      "technical_parameters": [],
+      "year": 2014
+    },
+    {
+      "id": 85,
+      "standard_id": "is_16627_2017",
+      "is_number": "IS 16627:2017",
+      "title": "High density polyethylene (HDPE) laminated woven lay flat tube for use in mains and submains of drip irrigation system",
+      "sector": "Agriculture",
+      "application": "agriculture / irrigation",
+      "materials": [
+        "polyethylene",
+        "hdpe"
+      ],
+      "technical_parameters": [],
+      "year": 2017
+    },
+    {
+      "id": 86,
+      "standard_id": "is_17729_2021",
+      "is_number": "IS 17729:2021",
+      "title": "Flexible Water Storage Tank for Agriculture and Horticulture Purposes",
+      "sector": "Agriculture",
+      "application": "agriculture / irrigation",
+      "materials": [],
+      "technical_parameters": [],
+      "year": 2021
+    },
+    {
+      "id": 87,
+      "standard_id": "is_12444_2020",
+      "is_number": "IS 12444:2020",
+      "title": "Copper Wire Rods for Electrical Applications",
+      "sector": "Copper",
+      "application": "electrical / plumbing / engineering",
+      "materials": [
+        "copper"
+      ],
+      "technical_parameters": [],
+      "year": 2020
+    },
+    {
+      "id": 88,
+      "standard_id": "is_613_2000",
+      "is_number": "IS 613:2000",
+      "title": "Copper Rods and Bars for Electrical Purposes",
+      "sector": "Copper",
+      "application": "electrical / plumbing / engineering",
+      "materials": [
+        "copper"
+      ],
+      "technical_parameters": [],
+      "year": 2000
+    },
+    {
+      "id": 89,
+      "standard_id": "is_14810_2000",
+      "is_number": "IS 14810:2000",
+      "title": "Copper Tubes for plumbing - Specification",
+      "sector": "Copper",
+      "application": "electrical / plumbing / engineering",
+      "materials": [
+        "copper"
+      ],
+      "technical_parameters": [],
+      "year": 2000
+    },
+    {
+      "id": 90,
+      "standard_id": "is_6343_1982",
+      "is_number": "IS 6343:1982",
+      "title": "Door closers (pneumatically regulated) for light doors weighing up to 40 kg",
+      "sector": "Door Fittings",
+      "application": "building hardware",
+      "materials": [],
+      "technical_parameters": [
+        "kg",
+        "40 kg"
+      ],
+      "year": 1982
+    },
+    {
+      "id": 91,
+      "standard_id": "is_208_2020",
+      "is_number": "IS 208:2020",
+      "title": "Door Handles",
+      "sector": "Door Fittings",
+      "application": "building hardware",
+      "materials": [],
+      "technical_parameters": [],
+      "year": 2020
+    }
+  ],
+  "references": [
+    {
+      "source": "IS 374:2019",
+      "target": "IS 302 : Part 1 (2024)",
+      "type": "general_safety_framework"
+    }
+  ]
+}

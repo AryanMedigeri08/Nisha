@@ -1,0 +1,39 @@
+{
+  "evaluation_timestamp": "2026-09-29T05:20:30.099819+00:00",
+  "total_queries_evaluated": 500,
+  "extraction_fidelity_metrics": {
+    "query_text_grounding_accuracy": 0.9977,
+    "hallucination_count": 0,
+    "hallucination_rate": 0.0,
+    "valid_query_supported_extractions": 99,
+    "genuine_over_extractions": 0
+  },
+  "seed_profile_alignment_metrics": {
+    "product_alignment_accuracy": 0.948,
+    "sector_alignment_accuracy": 0.766,
+    "application_macro_f1": 0.8199,
+    "material_alignment_f1": 0.705,
+    "parameter_value_f1": 1.0,
+    "parameter_unit_f1": 1.0,
+    "overall_field_level_f1": 0.8478
+  },
+  "sector_audit_breakdown": {
+    "total_sector_failures": 117,
+    "missing_sector_cases": 78,
+    "ambiguity_cases": 24,
+    "true_sector_errors": 14,
+    "normalization_errors": 1
+  },
+  "error_summary": {
+    "PRODUCT_MISSED": 0,
+    "PRODUCT_WRONG": 26,
+    "APPLICATION_MISSED": 16,
+    "MATERIAL_MISSED": 42,
+    "PARAMETER_MISSED": 0,
+    "PARAMETER_WRONG": 0,
+    "UNIT_WRONG": 0,
+    "VALID_QUERY_SUPPORTED_EXTRACTION": 99,
+    "GENUINE_OVER_EXTRACTION": 0,
+    "HALLUCINATION": 0
+  }
+}

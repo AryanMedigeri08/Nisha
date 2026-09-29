@@ -1,0 +1,46 @@
+{
+  "evaluation_timestamp": "2026-09-29T05:41:13.552817+00:00",
+  "total_queries": 500,
+  "systems": {
+    "BM25_Only": {
+      "description": "Experiment A: BM25 Sparse Lexical Retrieval",
+      "Recall@1": 0.914,
+      "Recall@5": 0.998,
+      "Recall@10": 1.0,
+      "Recall@20": 1.0,
+      "MRR": 0.95,
+      "NDCG@10": 0.9612
+    },
+    "Dense_Only": {
+      "description": "Experiment B: SentenceTransformer (all-MiniLM-L6-v2) Semantic Retrieval",
+      "Recall@1": 0.928,
+      "Recall@5": 1.0,
+      "Recall@10": 1.0,
+      "Recall@20": 1.0,
+      "MRR": 0.962,
+      "NDCG@10": 0.9707
+    },
+    "RRF_Fused": {
+      "description": "Experiment C: BM25 (20) + Dense (20) -> Reciprocal Rank Fusion (k=60)",
+      "Recall@1": 0.934,
+      "Recall@5": 1.0,
+      "Recall@10": 1.0,
+      "Recall@20": 1.0,
+      "MRR": 0.9648,
+      "NDCG@10": 0.973
+    },
+    "RRF_CrossEncoder": {
+      "description": "Experiment D: BM25 + Dense -> RRF -> Cross-Encoder (ms-marco-MiniLM-L-6-v2)",
+      "Recall@1": 0.958,
+      "Recall@5": 1.0,
+      "Recall@10": 1.0,
+      "MRR": 0.977,
+      "NDCG@10": 0.9817
+    }
+  },
+  "candidate_recall_at_20": {
+    "bm25_candidate_recall_at_20": 1.0,
+    "dense_candidate_recall_at_20": 1.0,
+    "rrf_candidate_recall_at_20": 1.0
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "random_seed": 42,
+  "record_count": 500,
+  "difficulty_distribution": {
+    "EASY": 150,
+    "NORMAL": 200,
+    "HARD": 100,
+    "NEAR_MATCH": 50
+  },
+  "model_name": null,
+  "generation_timestamp": "2026-09-29T04:58:39.000006+00:00",
+  "generator_version": "2.1.0",
+  "parameters": {
+    "easy_ratio": 0.3,
+    "normal_ratio": 0.4,
+    "hard_ratio": 0.2,
+    "near_match_ratio": 0.1
+  }
+}

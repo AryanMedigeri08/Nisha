@@ -1,0 +1,11 @@
+{
+  "graph_version": "v1.0.0",
+  "created_at": "2026-09-29T05:52:46.742824+00:00",
+  "standard_nodes": 91,
+  "qco_nodes": 35,
+  "reference_edges": 1,
+  "qco_edges": 91,
+  "resolved_references": 1,
+  "unresolved_references": 2,
+  "status": "sparse_bootstrap_graph"
+}

@@ -1,0 +1,13 @@
+{
+  "index_version": "v1.0.0",
+  "created_at": "2026-09-29T05:33:42.640667+00:00",
+  "standard_count": 91,
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "embedding_dimension": 384,
+  "reranker_model": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+  "bm25_top_k": 20,
+  "dense_top_k": 20,
+  "rrf_k": 60,
+  "rrf_top_k": 20,
+  "final_top_k": 10
+}

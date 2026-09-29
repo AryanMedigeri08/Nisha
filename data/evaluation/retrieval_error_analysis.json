@@ -1,0 +1,298 @@
+{
+  "summary": {
+    "PRIMARY_NOT_RETRIEVED": 0,
+    "PRIMARY_RANKED_TOO_LOW": 21,
+    "SEMANTIC_NEAR_MATCH_CONFUSION": 0,
+    "LEXICAL_MISMATCH": 0,
+    "SECTOR_CONFUSION": 2,
+    "PRODUCT_CONFUSION": 14,
+    "APPLICATION_CONFUSION": 0,
+    "PARAMETER_MISMATCH": 5,
+    "MULTI_SECTOR_AMBIGUITY": 0
+  },
+  "categories": {
+    "PRIMARY_NOT_RETRIEVED": [],
+    "PRIMARY_RANKED_TOO_LOW": [
+      {
+        "query_id": "syn_000014",
+        "query": "Notice Inviting Tender for supply of Room Air Conditioners for heating, ventilation and air conditioning.",
+        "primary_standard": "IS 1391 (Part-2):2018",
+        "primary_rank": 3,
+        "top_standard": "IS 11329:2018",
+        "top_title": "Finned type Heat Exchanger for Room Air Conditioner",
+        "top_sector": "HVAC",
+        "difficulty": "EASY"
+      },
+      {
+        "query_id": "syn_000045",
+        "query": "Notice Inviting Tender for supply of High Density Polyethylene (HDPE) laminated woven lay flat tube for irrigation purpose for agriculture and irrigation.",
+        "primary_standard": "IS 16190:2014",
+        "primary_rank": 2,
+        "top_standard": "IS 16627:2017",
+        "top_title": "High density polyethylene (HDPE) laminated woven lay flat tube for use in mains and submains of drip irrigation system",
+        "top_sector": "Agriculture",
+        "difficulty": "EASY"
+      },
+      {
+        "query_id": "syn_000114",
+        "query": "Notice Inviting Tender for procurement of Room Air Conditioners required for heating, ventilation and air conditioning.",
+        "primary_standard": "IS 1391 (Part-2):2018",
+        "primary_rank": 2,
+        "top_standard": "IS 1391 (Part-1):2017",
+        "top_title": "Room Air Conditioners - Specification Part 1: Unitary Air Conditioners",
+        "top_sector": "HVAC",
+        "difficulty": "EASY"
+      },
+      {
+        "query_id": "syn_000186",
+        "query": "Notice Inviting Tender for supply and inspection of welded and seamless mild steel pipes for water and gas required for water, gas or structural piping.",
+        "primary_standard": "IS 1239 (Part 1):2014",
+        "primary_rank": 3,
+        "top_standard": "IS 1161:2014",
+        "top_title": "Steel tubes for structural purposes",
+        "top_sector": "Pipes & Water",
+        "difficulty": "NORMAL"
+      },
+      {
+        "query_id": "syn_000192",
+        "query": "Competitive bids invited for supply of household gas cooking stoves for liquefied petroleum gas intended for gas and LPG systems.",
+        "primary_standard": "IS 4246:2025",
+        "primary_rank": 2,
+        "top_standard": "IS 17153:2019",
+        "top_title": "Domestic Gas Stoves for use with Piped Natural Gas (PNG) - Specification",
+        "top_sector": "Gas & LPG",
+        "difficulty": "NORMAL"
+      },
+      {
+        "query_id": "syn_000195",
+        "query": "Notice Inviting Tender for supply and inspection of flexible HDPE lay-flat irrigation water delivery pipes required for agriculture and irrigation.",
+        "primary_standard": "IS 16190:2014",
+        "primary_rank": 2,
+        "top_standard": "IS 16627:2017",
+        "top_title": "High density polyethylene (HDPE) laminated woven lay flat tube for use in mains and submains of drip irrigation system",
+        "top_sector": "Agriculture",
+        "difficulty": "NORMAL"
+      },
+      {
+        "query_id": "syn_000199",
+        "query": "Notice Inviting Tender for supply and inspection of electronic solid-state AC watt-hour meters required for electrical installations and appliances.",
+        "primary_standard": "IS 13779",
+        "primary_rank": 2,
+        "top_standard": "IS 13010",
+        "top_title": "AC watt-hour meters, class 0.5, 1 & 2",
+        "top_sector": "Electrical",
+        "difficulty": "NORMAL"
+      },
+      {
+        "query_id": "syn_000232",
+        "query": "Competitive bids invited for supply of unlaminated wood particle boards for general interior use intended for furniture and boards and interior products.",
+        "primary_standard": "IS 3087:2005",
+        "primary_rank": 2,
+        "top_standard": "IS 12823:2015",
+        "top_title": "Prelaminated particle boards from wood and other lignocellulosic material",
+        "top_sector": "Wood Products",
+        "difficulty": "NORMAL"
+      },
+      {
+        "query_id": "syn_000264",
+        "query": "Tender for the supply and commissioning of unblended hydraulic Portland cement for civil construction for use for construction.",
+        "primary_standard": "IS 269",
+        "primary_rank": 2,
+        "top_standard": "IS 8042",
+        "top_title": "White Portland Cement",
+        "top_sector": "Cement",
+        "difficulty": "NORMAL"
+      },
+      {
+        "query_id": "syn_000278",
+        "query": "Tender for the supply and commissioning of electrolytically zinc coated carbon steel sheets and strips for use for construction and engineering.",
+        "primary_standard": "IS 17404:2020",
+        "primary_rank": 2,
+        "top_standard": "IS 18513:2023",
+        "top_title": "Hot-Dip Zinc - Aluminium - Magnesium Alloy Coated Steel Sheets, Plates and Strips",
+        "top_sector": "Steel",
+        "difficulty": "NORMAL"
+      }
+    ],
+    "SEMANTIC_NEAR_MATCH_CONFUSION": [],
+    "LEXICAL_MISMATCH": [],
+    "SECTOR_CONFUSION": [
+      {
+        "query_id": "syn_000364",
+        "query": "Bids invited for supply of household culinary gas burning stoves engineered for liquefied petroleum gas mixtures for immediate deployment.",
+        "primary_standard": "IS 4246:2025",
+        "primary_rank": 3,
+        "top_standard": "IS 15558",
+        "top_title": "Instantaneous Domestic Water Heater for use with Liquefied Petroleum Gas",
+        "top_sector": "Kitchen Appliances",
+        "difficulty": "HARD"
+      },
+      {
+        "query_id": "syn_000391",
+        "query": "Bids invited for supply of junction and directional fittings of ductile iron for pressurized fluid transmission pipelines for immediate deployment.",
+        "primary_standard": "IS 9523:2000",
+        "primary_rank": 2,
+        "top_standard": "IS 1729:2002",
+        "top_title": "Cast iron/ductile iron drainage pipes and pipe fittings for over ground non-pressure pipelines socket and spigot series",
+        "top_sector": "Cast Iron",
+        "difficulty": "HARD"
+      }
+    ],
+    "PRODUCT_CONFUSION": [
+      {
+        "query_id": "syn_000014",
+        "query": "Notice Inviting Tender for supply of Room Air Conditioners for heating, ventilation and air conditioning.",
+        "primary_standard": "IS 1391 (Part-2):2018",
+        "primary_rank": 3,
+        "top_standard": "IS 11329:2018",
+        "top_title": "Finned type Heat Exchanger for Room Air Conditioner",
+        "top_sector": "HVAC",
+        "difficulty": "EASY"
+      },
+      {
+        "query_id": "syn_000045",
+        "query": "Notice Inviting Tender for supply of High Density Polyethylene (HDPE) laminated woven lay flat tube for irrigation purpose for agriculture and irrigation.",
+        "primary_standard": "IS 16190:2014",
+        "primary_rank": 2,
+        "top_standard": "IS 16627:2017",
+        "top_title": "High density polyethylene (HDPE) laminated woven lay flat tube for use in mains and submains of drip irrigation system",
+        "top_sector": "Agriculture",
+        "difficulty": "EASY"
+      },
+      {
+        "query_id": "syn_000114",
+        "query": "Notice Inviting Tender for procurement of Room Air Conditioners required for heating, ventilation and air conditioning.",
+        "primary_standard": "IS 1391 (Part-2):2018",
+        "primary_rank": 2,
+        "top_standard": "IS 1391 (Part-1):2017",
+        "top_title": "Room Air Conditioners - Specification Part 1: Unitary Air Conditioners",
+        "top_sector": "HVAC",
+        "difficulty": "EASY"
+      },
+      {
+        "query_id": "syn_000186",
+        "query": "Notice Inviting Tender for supply and inspection of welded and seamless mild steel pipes for water and gas required for water, gas or structural piping.",
+        "primary_standard": "IS 1239 (Part 1):2014",
+        "primary_rank": 3,
+        "top_standard": "IS 1161:2014",
+        "top_title": "Steel tubes for structural purposes",
+        "top_sector": "Pipes & Water",
+        "difficulty": "NORMAL"
+      },
+      {
+        "query_id": "syn_000192",
+        "query": "Competitive bids invited for supply of household gas cooking stoves for liquefied petroleum gas intended for gas and LPG systems.",
+        "primary_standard": "IS 4246:2025",
+        "primary_rank": 2,
+        "top_standard": "IS 17153:2019",
+        "top_title": "Domestic Gas Stoves for use with Piped Natural Gas (PNG) - Specification",
+        "top_sector": "Gas & LPG",
+        "difficulty": "NORMAL"
+      },
+      {
+        "query_id": "syn_000195",
+        "query": "Notice Inviting Tender for supply and inspection of flexible HDPE lay-flat irrigation water delivery pipes required for agriculture and irrigation.",
+        "primary_standard": "IS 16190:2014",
+        "primary_rank": 2,
+        "top_standard": "IS 16627:2017",
+        "top_title": "High density polyethylene (HDPE) laminated woven lay flat tube for use in mains and submains of drip irrigation system",
+        "top_sector": "Agriculture",
+        "difficulty": "NORMAL"
+      },
+      {
+        "query_id": "syn_000199",
+        "query": "Notice Inviting Tender for supply and inspection of electronic solid-state AC watt-hour meters required for electrical installations and appliances.",
+        "primary_standard": "IS 13779",
+        "primary_rank": 2,
+        "top_standard": "IS 13010",
+        "top_title": "AC watt-hour meters, class 0.5, 1 & 2",
+        "top_sector": "Electrical",
+        "difficulty": "NORMAL"
+      },
+      {
+        "query_id": "syn_000232",
+        "query": "Competitive bids invited for supply of unlaminated wood particle boards for general interior use intended for furniture and boards and interior products.",
+        "primary_standard": "IS 3087:2005",
+        "primary_rank": 2,
+        "top_standard": "IS 12823:2015",
+        "top_title": "Prelaminated particle boards from wood and other lignocellulosic material",
+        "top_sector": "Wood Products",
+        "difficulty": "NORMAL"
+      },
+      {
+        "query_id": "syn_000283",
+        "query": "Competitive bids invited for supply of zinc-coated steel sheet and strips for automotive vehicle manufacturing intended for construction and engineering.",
+        "primary_standard": "IS 18385:2023",
+        "primary_rank": 2,
+        "top_standard": "IS 18513:2023",
+        "top_title": "Hot-Dip Zinc - Aluminium - Magnesium Alloy Coated Steel Sheets, Plates and Strips",
+        "top_sector": "Steel",
+        "difficulty": "NORMAL"
+      },
+      {
+        "query_id": "syn_000318",
+        "query": "Competitive bids invited for supply of alternating current capacitors for induction motors intended for electrical power systems.",
+        "primary_standard": "IS 2993",
+        "primary_rank": 2,
+        "top_standard": "IS 12615",
+        "top_title": "Energy Efficient Induction Motors - Three Phase Squirrel Cage",
+        "top_sector": "Transformers & Motors",
+        "difficulty": "NORMAL"
+      }
+    ],
+    "APPLICATION_CONFUSION": [],
+    "PARAMETER_MISMATCH": [
+      {
+        "query_id": "syn_000264",
+        "query": "Tender for the supply and commissioning of unblended hydraulic Portland cement for civil construction for use for construction.",
+        "primary_standard": "IS 269",
+        "primary_rank": 2,
+        "top_standard": "IS 8042",
+        "top_title": "White Portland Cement",
+        "top_sector": "Cement",
+        "difficulty": "NORMAL"
+      },
+      {
+        "query_id": "syn_000278",
+        "query": "Tender for the supply and commissioning of electrolytically zinc coated carbon steel sheets and strips for use for construction and engineering.",
+        "primary_standard": "IS 17404:2020",
+        "primary_rank": 2,
+        "top_standard": "IS 18513:2023",
+        "top_title": "Hot-Dip Zinc - Aluminium - Magnesium Alloy Coated Steel Sheets, Plates and Strips",
+        "top_sector": "Steel",
+        "difficulty": "NORMAL"
+      },
+      {
+        "query_id": "syn_000305",
+        "query": "Competitive bids invited for supply of commercial mild steel fluid conveyance tubes intended for water, gas or structural piping.",
+        "primary_standard": "IS 1239 (Part 1):2014",
+        "primary_rank": 3,
+        "top_standard": "IS 4270:2001",
+        "top_title": "Steel tubes used for water-wells (up to 200 mm dia)",
+        "top_sector": "Pipes & Water",
+        "difficulty": "NORMAL"
+      },
+      {
+        "query_id": "syn_000352",
+        "query": "Bids invited for supply of portable handheld electrical food blenders designed for kitchen liquidizing and blending for immediate deployment.",
+        "primary_standard": "IS 302 (Part 2/Section 14)",
+        "primary_rank": 2,
+        "top_standard": "IS 4250",
+        "top_title": "Domestic Electric Food Mixer (Liquidizers and Grinders) and Centrifugal Juicer",
+        "top_sector": "Kitchen Appliances",
+        "difficulty": "HARD"
+      },
+      {
+        "query_id": "syn_000378",
+        "query": "Bids invited for supply of unlaminated wood-based particle board panels for general structural furniture substrates for immediate deployment.",
+        "primary_standard": "IS 3087:2005",
+        "primary_rank": 2,
+        "top_standard": "IS 12823:2015",
+        "top_title": "Prelaminated particle boards from wood and other lignocellulosic material",
+        "top_sector": "Wood Products",
+        "difficulty": "HARD"
+      }
+    ],
+    "MULTI_SECTOR_AMBIGUITY": []
+  }
+}

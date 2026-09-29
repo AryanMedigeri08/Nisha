@@ -1,0 +1,1404 @@
+{
+  "total_near_match_queries": 50,
+  "primary_at_rank_1": 50,
+  "primary_at_rank_1_rate": 1.0,
+  "primary_ranked_above_near_matches": 50,
+  "primary_ranked_above_rate": 1.0,
+  "near_match_retrieved_in_top_10_count": 50,
+  "cases": [
+    {
+      "query_id": "syn_000451",
+      "query": "Tender for supply and delivery specifically of Electrogalvanized hot rolled and cold reduced carbon steel sheets and strips for construction and engineering.",
+      "primary_standard": "IS 17404:2020",
+      "near_match_candidates": [
+        "IS 18316:2023",
+        "IS 18513:2023",
+        "IS 18384:2023"
+      ],
+      "retrieved_top_10": [
+        "IS 17404:2020",
+        "IS 18316:2023",
+        "IS 18385:2023",
+        "IS 18384:2023",
+        "IS 18513:2023",
+        "IS 16644:2018",
+        "IS 15911:2010",
+        "IS 8329:2000",
+        "IS 3196 (Part 1)",
+        "IS 1161:2014"
+      ],
+      "primary_rank": 1,
+      "near_match_ranks": {
+        "IS 18316:2023": 2,
+        "IS 18513:2023": 5,
+        "IS 18384:2023": 4
+      }
+    },
+    {
+      "query_id": "syn_000452",
+      "query": "Tender for supply and delivery specifically of Outdoor type oil immersed distribution transformers up to and including 2500 kVA, 33 kV for electrical power systems.",
+      "primary_standard": "IS 1180 (Part 1)",
+      "near_match_candidates": [
+        "IS 12615",
+        "IS 2993",
+        "IS 13340"
+      ],
+      "retrieved_top_10": [
+        "IS 1180 (Part 1)",
+        "IS 13340",
+        "IS 2993",
+        "IS 12615",
+        "IS 302 (Part 2/Sec 201)",
+        "IS 694",
+        "IS 374:2019",
+        "IS 14927 (Part 2):2001",
+        "IS 17505 (Part 1):2021",
+        "IS 13010"
+      ],
+      "primary_rank": 1,
+      "near_match_ranks": {
+        "IS 12615": 4,
+        "IS 2993": 3,
+        "IS 13340": 2
+      }
+    },
+    {
+      "query_id": "syn_000453",
+      "query": "Tender for supply and delivery specifically of Reverse Osmosis Based Point of Use Water Treatment System specifically for Drinking Purposes for drinking water treatment.",
+      "primary_standard": "IS 16240:2023",
+      "near_match_candidates": [
+        "IS 9523:2000",
+        "IS 4270:2001",
+        "IS 1489 (Part 1)"
+      ],
+      "retrieved_top_10": [
+        "IS 16240:2023",
+        "IS 17729:2021",
+        "IS 4270:2001",
+        "IS 15558",
+        "IS 1161:2014",
+        "IS 302 (Part 2/Sec 201)",
+        "IS 16627:2017",
+        "IS 8329:2000",
+        "IS 10116:2015",
+        "IS 9523:2000"
+      ],
+      "primary_rank": 1,
+      "near_match_ranks": {
+        "IS 9523:2000": 10,
+        "IS 4270:2001": 3,
+        "IS 1489 (Part 1)": null
+      }
+    },
+    {
+      "query_id": "syn_000454",
+      "query": "Competitive bids invited specifically for Portland Pozzolana Cement specifically calcined clay based composition to satisfy technical requirements for construction.",
+      "primary_standard": "IS 1489 (Part 2)",
+      "near_match_candidates": [
+        "IS 1489 (Part 1)",
+        "IS 269",
+        "IS 455"
+      ],
+      "retrieved_top_10": [
+        "IS 1489 (Part 2)",
+        "IS 1489 (Part 1)",
+        "IS 455",
+        "IS 269",
+        "IS 8042",
+        "IS 8041",
+        "IS 12330",
+        "IS 16415:2015",
+        "IS 16644:2018",
+        "IS 15911:2010"
+      ],
+      "primary_rank": 1,
+      "near_match_ranks": {
+        "IS 1489 (Part 1)": 2,
+        "IS 269": 4,
+        "IS 455": 3
+      }
+    },
+    {
+      "query_id": "syn_000455",
+      "query": "Requisition for procurement conforming specifically to Bayonet Lamp Holders for project execution for electrical installations.",
+      "primary_standard": "IS 1258:2005",
+      "near_match_candidates": [
+        "IS 14772:2020",
+        "IS 14927 (Part 2):2001",
+        "IS 13774:2021"
+      ],
+      "retrieved_top_10": [
+        "IS 1258:2005",
+        "IS 15111 (Part 1 & 2)",
+        "IS 14772:2020",
+        "IS 14927 (Part 2):2001",
+        "IS 13774:2021",
+        "IS 374:2019",
+        "IS 3854",
+        "IS 302 : Part 1 (2024)",
+        "IS 13779",
+        "IS 302 (Part 2/Sec 201)"
+      ],
+      "primary_rank": 1,
+      "near_match_ranks": {
+        "IS 14772:2020": 3,
+        "IS 14927 (Part 2):2001": 4,
+        "IS 13774:2021": 5
+      }
+    },
+    {
+      "query_id": "syn_000456",
+      "query": "Requisition for procurement conforming specifically to Steel tubes, tubulars and other wrought steel fittings - Steel Tubes for project execution for water, gas or structural piping.",
+      "primary_standard": "IS 1239 (Part 1):2014",
+      "near_match_candidates": [
+        "IS 1161:2014",
+        "IS 4270:2001",
+        "IS 9523:2000"
+      ],
+      "retrieved_top_10": [
+        "IS 1239 (Part 1):2014",
+        "IS 1161:2014",
+        "IS 4270:2001",
+        "IS 9523:2000",
+        "IS 8329:2000",
+        "IS 18384:2023",
+        "IS 14810:2000",
+        "IS 15911:2010",
+        "IS 18316:2023",
+        "IS 3196 (Part 1)"
+      ],
+      "primary_rank": 1,
+      "near_match_ranks": {
+        "IS 1161:2014": 2,
+        "IS 4270:2001": 3,
+        "IS 9523:2000": 4
+      }
+    },
+    {
+      "query_id": "syn_000457",
+      "query": "Tender for supply and delivery specifically of Room Air Conditioners specifically Unitary Air Conditioners classification for heating, ventilation and air conditioning.",
+      "primary_standard": "IS 1391 (Part-1):2017",
+      "near_match_candidates": [
+        "IS 1391 (Part-2):2018",
+        "IS 8148:2018",
+        "IS 11329:2018"
+      ],
+      "retrieved_top_10": [
+        "IS 1391 (Part-1):2017",
+        "IS 1391 (Part-2):2018",
+        "IS 11329:2018",
+        "IS 8148:2018",
+        "IS 10617:2018",
+        "IS 302 (Part 2/Sec 30)",
+        "IS 302 (Part 2/Sec 201)",
+        "IS 15558",
+        "IS 13779",
+        "IS 302 : Part 1 (2024)"
+      ],
+      "primary_rank": 1,
+      "near_match_ranks": {
+        "IS 1391 (Part-2):2018": 2,
+        "IS 8148:2018": 4,
+        "IS 11329:2018": 3
+      }
+    },
+    {
+      "query_id": "syn_000458",
+      "query": "Requisition for procurement conforming specifically to Laboratory glassware - Graduated measuring cylinders for project execution for laboratory measurement and handling.",
+      "primary_standard": "IS 878:2008",
+      "near_match_candidates": [
+        "IS 915:2012",
+        "IS 2619:2018",
+        "IS 3196 (Part 1)"
+      ],
+      "retrieved_top_10": [
+        "IS 878:2008",
+        "IS 915:2012",
+        "IS 2619:2018",
+        "IS 7285 (Part 1)",
+        "IS 3196 (Part 1)",
+        "IS 7620 (Part 1)",
+        "IS 3224",
+        "IS 3055 (Part 1)",
+        "IS 3055 (Part 2)",
+        "IS 14810:2000"
+      ],
+      "primary_rank": 1,
+      "near_match_ranks": {
+        "IS 915:2012": 2,
+        "IS 2619:2018": 3,
+        "IS 3196 (Part 1)": 5
+      }
+    },
+    {
+      "query_id": "syn_000459",
+      "query": "Tender for supply and delivery specifically of Room Air Conditioners specifically Split Air Conditioners classification for heating, ventilation and air conditioning.",
+      "primary_standard": "IS 1391 (Part-2):2018",
+      "near_match_candidates": [
+        "IS 1391 (Part-1):2017",
+        "IS 8148:2018",
+        "IS 11329:2018"
+      ],
+      "retrieved_top_10": [
+        "IS 1391 (Part-2):2018",
+        "IS 1391 (Part-1):2017",
+        "IS 8148:2018",
+        "IS 11329:2018",
+        "IS 10617:2018",
+        "IS 302 (Part 2/Sec 30)",
+        "IS 302 (Part 2/Section 14)",
+        "IS 302 : Part 1 (2024)",
+        "IS 13779",
+        "IS 7872:2018"
+      ],
+      "primary_rank": 1,
+      "near_match_ranks": {
+        "IS 1391 (Part-1):2017": 2,
+        "IS 8148:2018": 3,
+        "IS 11329:2018": 4
+      }
+    },
+    {
+      "query_id": "syn_000460",
+      "query": "Tender for supply and delivery specifically of Flexible Water Storage Tank specifically for Agriculture and Horticulture Purposes for agriculture and irrigation.",
+      "primary_standard": "IS 17729:2021",
+      "near_match_candidates": [
+        "IS 16190:2014",
+        "IS 16627:2017",
+        "IS 302 (Part 2/Sec 201)"
+      ],
+      "retrieved_top_10": [
+        "IS 17729:2021",
+        "IS 16190:2014",
+        "IS 16627:2017",
+        "IS 7872:2018",
+        "IS 15558",
+        "IS 16240:2023",
+        "IS 4270:2001",
+        "IS 17550 (Part 1):2021",
+        "IS 302 (Part 2/Sec 201)",
+        "IS 1161:2014"
+      ],
+      "primary_rank": 1,
+      "near_match_ranks": {
+        "IS 16190:2014": 2,
+        "IS 16627:2017": 3,
+        "IS 302 (Part 2/Sec 201)": 9
+      }
+    },
+    {
+      "query_id": "syn_000461",
+      "query": "Tender for supply and delivery specifically of Domestic gas stoves and built-in hobs specifically for use with LPG (Sixth Revision) for gas and LPG systems.",
+      "primary_standard": "IS 4246:2025",
+      "near_match_candidates": [
+        "IS 3196 (Part 1)",
+        "IS 9798",
+        "IS 17153:2019"
+      ],
+      "retrieved_top_10": [
+        "IS 4246:2025",
+        "IS 17153:2019",
+        "IS 15558",
+        "IS 9798",
+        "IS 3196 (Part 1)",
+        "IS 7285 (Part 1)",
+        "IS 3224",
+        "IS 302 (Part 2/Sec 202)",
+        "IS 4250",
+        "IS 302 (Part 2/Section 14)"
+      ],
+      "primary_rank": 1,
+      "near_match_ranks": {
+        "IS 3196 (Part 1)": 5,
+        "IS 9798": 4,
+        "IS 17153:2019": 2
+      }
+    },
+    {
+      "query_id": "syn_000462",
+      "query": "Requisition for procurement conforming specifically to AC watt-hour meters of electromechanical induction type class 0.5, 1 and 2 for project execution for electrical installations and appliances.",
+      "primary_standard": "IS 13010",
+      "near_match_candidates": [
+        "IS 13779",
+        "IS 12640 (Part 1)",
+        "IS 12640 (Part 2)"
+      ],
+      "retrieved_top_10": [
+        "IS 13010",
+        "IS 13779",
+        "IS 12615",
+        "IS 13340",
+        "IS 374:2019",
+        "IS 17505 (Part 1):2021",
+        "IS 2993",
+        "IS 302 : Part 1 (2024)",
+        "IS 694",
+        "IS 13774:2021"
+      ],
+      "primary_rank": 1,
+      "near_match_ranks": {
+        "IS 13779": 2,
+        "IS 12640 (Part 1)": null,
+        "IS 12640 (Part 2)": null
+      }
+    },
+    {
+      "query_id": "syn_000463",
+      "query": "Requisition for procurement conforming specifically to Wheeled Fire Extinguishers mounted on mobile wheel chassis for project execution for fire protection.",
+      "primary_standard": "IS 16018:2012",
+      "near_match_candidates": [
+        "IS 15683:2018",
+        "IS 17505 (Part 1):2021"
+      ],
+      "retrieved_top_10": [
+        "IS 16018:2012",
+        "IS 15683:2018",
+        "IS 17505 (Part 1):2021",
+        "IS 15298 (Part 2):2016",
+        "IS 13774:2021",
+        "IS 15298 (Part 4):2017",
+        "IS 15298 (Part 3):2019",
+        "IS 4151:2015",
+        "IS 15111 (Part 1 & 2)",
+        "IS 14772:2020"
+      ],
+      "primary_rank": 1,
+      "near_match_ranks": {
+        "IS 15683:2018": 2,
+        "IS 17505 (Part 1):2021": 3
+      }
+    },
+    {
+      "query_id": "syn_000464",
+      "query": "Competitive bids invited specifically for Particle boards of wood and other lignocellulosic materials (medium density) for general purpose to satisfy technical requirements for furniture and boards and interior products.",
+      "primary_standard": "IS 3087:2005",
+      "near_match_candidates": [
+        "IS 12823:2015",
+        "IS 12406:2021",
+        "IS 1659:2004"
+      ],
+      "retrieved_top_10": [
+        "IS 3087:2005",
+        "IS 12823:2015",
+        "IS 12406:2021",
+        "IS 1659:2004",
+        "IS 16190:2014",
+        "IS 16627:2017",
+        "IS 15573",
+        "IS 10116:2015",
+        "IS 13774:2021",
+        "IS 9798"
+      ],
+      "primary_rank": 1,
+      "near_match_ranks": {
+        "IS 12823:2015": 2,
+        "IS 12406:2021": 3,
+        "IS 1659:2004": 4
+      }
+    },
+    {
+      "query_id": "syn_000465",
+      "query": "Requisition for procurement conforming specifically to Domestic gas stoves specifically for use with Piped Natural Gas (PNG) for project execution for gas and LPG systems.",
+      "primary_standard": "IS 17153:2019",
+      "near_match_candidates": [
+        "IS 4246:2025",
+        "IS 3196 (Part 1)",
+        "IS 3224"
+      ],
+      "retrieved_top_10": [
+        "IS 17153:2019",
+        "IS 4246:2025",
+        "IS 15558",
+        "IS 9798",
+        "IS 302 (Part 2/Sec 202)",
+        "IS 3224",
+        "IS 3196 (Part 1)",
+        "IS 7285 (Part 1)",
+        "IS 4250",
+        "IS 3854"
+      ],
+      "primary_rank": 1,
+      "near_match_ranks": {
+        "IS 4246:2025": 2,
+        "IS 3196 (Part 1)": 7,
+        "IS 3224": 6
+      }
+    },
+    {
+      "query_id": "syn_000466",
+      "query": "Competitive bids invited specifically for Portland Pozzolana Cement specifically fly-ash based composition to satisfy technical requirements for construction.",
+      "primary_standard": "IS 1489 (Part 1)",
+      "near_match_candidates": [
+        "IS 1489 (Part 2)",
+        "IS 269",
+        "IS 455"
+      ],
+      "retrieved_top_10": [
+        "IS 1489 (Part 1)",
+        "IS 1489 (Part 2)",
+        "IS 455",
+        "IS 269",
+        "IS 8042",
+        "IS 8041",
+        "IS 12330",
+        "IS 16415:2015",
+        "IS 16644:2018",
+        "IS 15911:2010"
+      ],
+      "primary_rank": 1,
+      "near_match_ranks": {
+        "IS 1489 (Part 2)": 2,
+        "IS 269": 4,
+        "IS 455": 3
+      }
+    },
+    {
+      "query_id": "syn_000467",
+      "query": "Requisition for procurement conforming specifically to Ducted and Package Air Conditioners for project execution for heating, ventilation and air conditioning.",
+      "primary_standard": "IS 8148:2018",
+      "near_match_candidates": [
+        "IS 1391 (Part-1):2017",
+        "IS 1391 (Part-2):2018",
+        "IS 11329:2018"
+      ],
+      "retrieved_top_10": [
+        "IS 8148:2018",
+        "IS 1391 (Part-1):2017",
+        "IS 1391 (Part-2):2018",
+        "IS 10617:2018",
+        "IS 11329:2018",
+        "IS 14927 (Part 2):2001",
+        "IS 9523:2000",
+        "IS 302 (Part 2/Sec 30)",
+        "IS 7872:2018",
+        "IS 14772:2020"
+      ],
+      "primary_rank": 1,
+      "near_match_ranks": {
+        "IS 1391 (Part-1):2017": 2,
+        "IS 1391 (Part-2):2018": 3,
+        "IS 11329:2018": 5
+      }
+    },
+    {
+      "query_id": "syn_000468",
+      "query": "Tender for supply and delivery specifically of Glass beakers for laboratory measurement and handling.",
+      "primary_standard": "IS 2619:2018",
+      "near_match_candidates": [
+        "IS 878:2008",
+        "IS 915:2012"
+      ],
+      "retrieved_top_10": [
+        "IS 2619:2018",
+        "IS 878:2008",
+        "IS 915:2012",
+        "IS 7620 (Part 1)",
+        "IS 3055 (Part 2)",
+        "IS 3055 (Part 1)",
+        "IS 302 (Part 2/Section 14)",
+        "IS 252:2013",
+        "IS 4250",
+        "IS 4270:2001"
+      ],
+      "primary_rank": 1,
+      "near_match_ranks": {
+        "IS 878:2008": 2,
+        "IS 915:2012": 3
+      }
+    },
+    {
+      "query_id": "syn_000469",
+      "query": "Tender for supply and delivery specifically of A.C. motor capacitors intended specifically for motor starting and running for electrical power systems.",
+      "primary_standard": "IS 2993",
+      "near_match_candidates": [
+        "IS 13340",
+        "IS 1180 (Part 1)",
+        "IS 12615"
+      ],
+      "retrieved_top_10": [
+        "IS 2993",
+        "IS 13340",
+        "IS 12615",
+        "IS 14927 (Part 2):2001",
+        "IS 18316:2023",
+        "IS 1180 (Part 1)",
+        "IS 3854",
+        "IS 13779",
+        "IS 13010",
+        "IS 694"
+      ],
+      "primary_rank": 1,
+      "near_match_ranks": {
+        "IS 13340": 2,
+        "IS 1180 (Part 1)": 6,
+        "IS 12615": 3
+      }
+    },
+    {
+      "query_id": "syn_000470",
+      "query": "Requisition for procurement conforming specifically to AC static (electronic) watt-hour meters class 1 and 2 without moving induction disc for project execution for electrical installations and appliances.",
+      "primary_standard": "IS 13779",
+      "near_match_candidates": [
+        "IS 13010",
+        "IS 12640 (Part 1)",
+        "IS 12640 (Part 2)"
+      ],
+      "retrieved_top_10": [
+        "IS 13779",
+        "IS 13010",
+        "IS 12615",
+        "IS 17505 (Part 1):2021",
+        "IS 374:2019",
+        "IS 302 : Part 1 (2024)",
+        "IS 13340",
+        "IS 14772:2020",
+        "IS 12640 (Part 1)",
+        "IS 15111 (Part 1 & 2)"
+      ],
+      "primary_rank": 1,
+      "near_match_ranks": {
+        "IS 13010": 2,
+        "IS 12640 (Part 1)": 9,
+        "IS 12640 (Part 2)": null
+      }
+    },
+    {
+      "query_id": "syn_000471",
+      "query": "Requisition for procurement conforming specifically to Copper Rods and Bars specifically for Electrical Purposes for project execution for electrical and plumbing and engineering.",
+      "primary_standard": "IS 613:2000",
+      "near_match_candidates": [
+        "IS 12444:2020",
+        "IS 14810:2000",
+        "IS 302 (Part 2/Sec 3)"
+      ],
+      "retrieved_top_10": [
+        "IS 613:2000",
+        "IS 12444:2020",
+        "IS 14810:2000",
+        "IS 18316:2023",
+        "IS 14772:2020",
+        "IS 14927 (Part 2):2001",
+        "IS 3854",
+        "IS 694",
+        "IS 302 (Part 2/Sec 202)",
+        "IS 1161:2014"
+      ],
+      "primary_rank": 1,
+      "near_match_ranks": {
+        "IS 12444:2020": 2,
+        "IS 14810:2000": 3,
+        "IS 302 (Part 2/Sec 3)": null
+      }
+    },
+    {
+      "query_id": "syn_000472",
+      "query": "Tender for supply and delivery specifically of Power Capacitors of Self-healing Type for AC Power Systems having Rated Voltage up to 650 V for electrical power systems.",
+      "primary_standard": "IS 13340",
+      "near_match_candidates": [
+        "IS 17293:2020",
+        "IS 2993",
+        "IS 17505 (Part 1):2021"
+      ],
+      "retrieved_top_10": [
+        "IS 13340",
+        "IS 2993",
+        "IS 17505 (Part 1):2021",
+        "IS 694",
+        "IS 17293:2020",
+        "IS 13779",
+        "IS 12615",
+        "IS 13010",
+        "IS 1180 (Part 1)",
+        "IS 374:2019"
+      ],
+      "primary_rank": 1,
+      "near_match_ranks": {
+        "IS 17293:2020": 5,
+        "IS 2993": 2,
+        "IS 17505 (Part 1):2021": 3
+      }
+    },
+    {
+      "query_id": "syn_000473",
+      "query": "Tender for supply and delivery specifically of PVC insulated cables rated specifically for working voltages up to and including 1100 V for electrical installations and appliances.",
+      "primary_standard": "IS 694",
+      "near_match_candidates": [
+        "IS 17505 (Part 1):2021",
+        "IS 12640 (Part 1)",
+        "IS 12640 (Part 2)"
+      ],
+      "retrieved_top_10": [
+        "IS 694",
+        "IS 17505 (Part 1):2021",
+        "IS 17293:2020",
+        "IS 13340",
+        "IS 14927 (Part 2):2001",
+        "IS 13774:2021",
+        "IS 14772:2020",
+        "IS 13010",
+        "IS 3854",
+        "IS 302 : Part 1 (2024)"
+      ],
+      "primary_rank": 1,
+      "near_match_ranks": {
+        "IS 17505 (Part 1):2021": 2,
+        "IS 12640 (Part 1)": null,
+        "IS 12640 (Part 2)": null
+      }
+    },
+    {
+      "query_id": "syn_000474",
+      "query": "Tender for supply and delivery specifically of White Portland Cement for decorative and architectural construction for construction.",
+      "primary_standard": "IS 8042",
+      "near_match_candidates": [
+        "IS 269",
+        "IS 455",
+        "IS 1489 (Part 1)"
+      ],
+      "retrieved_top_10": [
+        "IS 8042",
+        "IS 269",
+        "IS 455",
+        "IS 8041",
+        "IS 1489 (Part 2)",
+        "IS 1489 (Part 1)",
+        "IS 12330",
+        "IS 16415:2015",
+        "IS 15911:2010",
+        "IS 16644:2018"
+      ],
+      "primary_rank": 1,
+      "near_match_ranks": {
+        "IS 269": 2,
+        "IS 455": 3,
+        "IS 1489 (Part 1)": 6
+      }
+    },
+    {
+      "query_id": "syn_000475",
+      "query": "Tender for supply and delivery specifically of Structural Steel of Ordinary Quality for construction and engineering.",
+      "primary_standard": "IS 15911:2010",
+      "near_match_candidates": [
+        "IS 16644:2018",
+        "IS 17404:2020",
+        "IS 18316:2023"
+      ],
+      "retrieved_top_10": [
+        "IS 15911:2010",
+        "IS 18316:2023",
+        "IS 16644:2018",
+        "IS 18385:2023",
+        "IS 18513:2023",
+        "IS 18384:2023",
+        "IS 17404:2020",
+        "IS 1161:2014",
+        "IS 8329:2000",
+        "IS 269"
+      ],
+      "primary_rank": 1,
+      "near_match_ranks": {
+        "IS 16644:2018": 3,
+        "IS 17404:2020": 7,
+        "IS 18316:2023": 2
+      }
+    },
+    {
+      "query_id": "syn_000476",
+      "query": "Tender for supply and delivery specifically of Clinical thermometers specifically of enclosed scale type for medical equipment.",
+      "primary_standard": "IS 3055 (Part 2)",
+      "near_match_candidates": [
+        "IS 3055 (Part 1)",
+        "IS 7620 (Part 1)",
+        "IS 15298 (Part 2):2016"
+      ],
+      "retrieved_top_10": [
+        "IS 3055 (Part 2)",
+        "IS 3055 (Part 1)",
+        "IS 7620 (Part 1)",
+        "IS 15298 (Part 4):2017",
+        "IS 15298 (Part 2):2016",
+        "IS 15298 (Part 3):2019",
+        "IS 878:2008",
+        "IS 915:2012",
+        "IS 2619:2018",
+        "IS 374:2019"
+      ],
+      "primary_rank": 1,
+      "near_match_ranks": {
+        "IS 3055 (Part 1)": 2,
+        "IS 7620 (Part 1)": 3,
+        "IS 15298 (Part 2):2016": 5
+      }
+    },
+    {
+      "query_id": "syn_000477",
+      "query": "Requisition for procurement conforming specifically to Hot-Dip galvanized/galvannealed Steel Sheet and strips specifically for Automotive Applications for project execution for construction and engineering.",
+      "primary_standard": "IS 18385:2023",
+      "near_match_candidates": [
+        "IS 18513:2023",
+        "IS 17404:2020",
+        "IS 18316:2023"
+      ],
+      "retrieved_top_10": [
+        "IS 18385:2023",
+        "IS 18513:2023",
+        "IS 17404:2020",
+        "IS 18316:2023",
+        "IS 18384:2023",
+        "IS 16644:2018",
+        "IS 15911:2010",
+        "IS 7285 (Part 1)",
+        "IS 8329:2000",
+        "IS 1161:2014"
+      ],
+      "primary_rank": 1,
+      "near_match_ranks": {
+        "IS 18513:2023": 2,
+        "IS 17404:2020": 3,
+        "IS 18316:2023": 4
+      }
+    },
+    {
+      "query_id": "syn_000478",
+      "query": "Procurement specification for supply of Residual current operated circuit breakers specifically with integral overcurrent protection (RCBOs) intended for use for electrical installations and appliances.",
+      "primary_standard": "IS 12640 (Part 2)",
+      "near_match_candidates": [
+        "IS 12640 (Part 1)",
+        "IS 302 (Part 2/Sec 3)",
+        "IS 302 (Part 2/Sec 201)"
+      ],
+      "retrieved_top_10": [
+        "IS 12640 (Part 2)",
+        "IS 12640 (Part 1)",
+        "IS 14927 (Part 2):2001",
+        "IS 374:2019",
+        "IS 3854",
+        "IS 694",
+        "IS 14772:2020",
+        "IS 302 : Part 1 (2024)",
+        "IS 13779",
+        "IS 302 (Part 2/Sec 202)"
+      ],
+      "primary_rank": 1,
+      "near_match_ranks": {
+        "IS 12640 (Part 1)": 2,
+        "IS 302 (Part 2/Sec 3)": null,
+        "IS 302 (Part 2/Sec 201)": null
+      }
+    },
+    {
+      "query_id": "syn_000479",
+      "query": "Requisition for procurement conforming specifically to Switches for domestic and similar fixed electrical installations for project execution for electrical installations and appliances.",
+      "primary_standard": "IS 3854",
+      "near_match_candidates": [
+        "IS 12640 (Part 1)",
+        "IS 12640 (Part 2)",
+        "IS 13010"
+      ],
+      "retrieved_top_10": [
+        "IS 3854",
+        "IS 14772:2020",
+        "IS 302 : Part 1 (2024)",
+        "IS 12640 (Part 2)",
+        "IS 12640 (Part 1)",
+        "IS 302 (Part 2/Sec 202)",
+        "IS 302 (Part 2/Sec 3)",
+        "IS 302 (Part 2/Sec 201)",
+        "IS 302 (Part 2/Sec 30)",
+        "IS 14927 (Part 2):2001"
+      ],
+      "primary_rank": 1,
+      "near_match_ranks": {
+        "IS 12640 (Part 1)": 5,
+        "IS 12640 (Part 2)": 4,
+        "IS 13010": null
+      }
+    },
+    {
+      "query_id": "syn_000480",
+      "query": "Competitive bids invited specifically for Poly Aluminium Chloride chemical compound to satisfy technical requirements for chemical processing and industrial materials.",
+      "primary_standard": "IS 15573",
+      "near_match_candidates": [
+        "IS 18513:2023",
+        "IS 252:2013",
+        "IS 10116:2015"
+      ],
+      "retrieved_top_10": [
+        "IS 15573",
+        "IS 10116:2015",
+        "IS 2833:2019",
+        "IS 252:2013",
+        "IS 18513:2023",
+        "IS 18316:2023",
+        "IS 15911:2010",
+        "IS 16415:2015",
+        "IS 8042",
+        "IS 269"
+      ],
+      "primary_rank": 1,
+      "near_match_ranks": {
+        "IS 18513:2023": 5,
+        "IS 252:2013": 4,
+        "IS 10116:2015": 2
+      }
+    },
+    {
+      "query_id": "syn_000481",
+      "query": "Tender for supply and delivery specifically of Laboratory glassware - One-Mark volumetric flasks for laboratory measurement and handling.",
+      "primary_standard": "IS 915:2012",
+      "near_match_candidates": [
+        "IS 878:2008",
+        "IS 2619:2018"
+      ],
+      "retrieved_top_10": [
+        "IS 915:2012",
+        "IS 878:2008",
+        "IS 2619:2018",
+        "IS 7620 (Part 1)",
+        "IS 3055 (Part 2)",
+        "IS 3055 (Part 1)",
+        "IS 4270:2001",
+        "IS 17729:2021",
+        "IS 1161:2014",
+        "IS 613:2000"
+      ],
+      "primary_rank": 1,
+      "near_match_ranks": {
+        "IS 878:2008": 2,
+        "IS 2619:2018": 3
+      }
+    },
+    {
+      "query_id": "syn_000482",
+      "query": "Requisition for procurement conforming specifically to Helmets specifically for riders of Two Wheeler Motor Vehicles for project execution for personal protective equipment.",
+      "primary_standard": "IS 4151:2015",
+      "near_match_candidates": [
+        "IS 15298 (Part 2):2016",
+        "IS 15298 (Part 3):2019",
+        "IS 15298 (Part 4):2017"
+      ],
+      "retrieved_top_10": [
+        "IS 4151:2015",
+        "IS 15298 (Part 2):2016",
+        "IS 15298 (Part 3):2019",
+        "IS 15298 (Part 4):2017",
+        "IS 16018:2012",
+        "IS 13774:2021",
+        "IS 7620 (Part 1)",
+        "IS 2993",
+        "IS 15683:2018",
+        "IS 302 : Part 1 (2024)"
+      ],
+      "primary_rank": 1,
+      "near_match_ranks": {
+        "IS 15298 (Part 2):2016": 2,
+        "IS 15298 (Part 3):2019": 3,
+        "IS 15298 (Part 4):2017": 4
+      }
+    },
+    {
+      "query_id": "syn_000483",
+      "query": "Tender for supply and delivery specifically of Prelaminated particle boards from wood and other lignocellulosic material for furniture and boards and interior products.",
+      "primary_standard": "IS 12823:2015",
+      "near_match_candidates": [
+        "IS 3087:2005",
+        "IS 1659:2004",
+        "IS 12406:2021"
+      ],
+      "retrieved_top_10": [
+        "IS 12823:2015",
+        "IS 3087:2005",
+        "IS 12406:2021",
+        "IS 1659:2004",
+        "IS 13774:2021",
+        "IS 15573",
+        "IS 14772:2020",
+        "IS 10116:2015",
+        "IS 1239 (Part 1):2014",
+        "IS 16415:2015"
+      ],
+      "primary_rank": 1,
+      "near_match_ranks": {
+        "IS 3087:2005": 2,
+        "IS 1659:2004": 4,
+        "IS 12406:2021": 3
+      }
+    },
+    {
+      "query_id": "syn_000484",
+      "query": "Competitive bids invited specifically for Boxes and Enclosures for Electrical Accessories for Household and Similar Fixed Electrical Installations to satisfy technical requirements for electrical installations.",
+      "primary_standard": "IS 14772:2020",
+      "near_match_candidates": [
+        "IS 14927 (Part 2):2001",
+        "IS 302 (Part 2/Sec 3)",
+        "IS 302 (Part 2/Sec 201)"
+      ],
+      "retrieved_top_10": [
+        "IS 14772:2020",
+        "IS 302 : Part 1 (2024)",
+        "IS 14927 (Part 2):2001",
+        "IS 302 (Part 2/Sec 202)",
+        "IS 302 (Part 2/Sec 201)",
+        "IS 302 (Part 2/Sec 30)",
+        "IS 13774:2021",
+        "IS 302 (Part 2/Sec 3)",
+        "IS 1258:2005",
+        "IS 12640 (Part 2)"
+      ],
+      "primary_rank": 1,
+      "near_match_ranks": {
+        "IS 14927 (Part 2):2001": 3,
+        "IS 302 (Part 2/Sec 3)": 8,
+        "IS 302 (Part 2/Sec 201)": 5
+      }
+    },
+    {
+      "query_id": "syn_000485",
+      "query": "Competitive bids invited specifically for Safety of household electrical appliances specifically for electric irons to satisfy technical requirements for electrical installations and appliances.",
+      "primary_standard": "IS 302 (Part 2/Sec 3)",
+      "near_match_candidates": [
+        "IS 302 (Part 2/Sec 201)",
+        "IS 302 (Part 2/Sec 202)",
+        "IS 302 (Part 2/Sec 30)"
+      ],
+      "retrieved_top_10": [
+        "IS 302 (Part 2/Sec 3)",
+        "IS 302 : Part 1 (2024)",
+        "IS 302 (Part 2/Sec 202)",
+        "IS 302 (Part 2/Sec 201)",
+        "IS 302 (Part 2/Sec 30)",
+        "IS 15111 (Part 1 & 2)",
+        "IS 14772:2020",
+        "IS 12640 (Part 1)",
+        "IS 12640 (Part 2)",
+        "IS 3854"
+      ],
+      "primary_rank": 1,
+      "near_match_ranks": {
+        "IS 302 (Part 2/Sec 201)": 4,
+        "IS 302 (Part 2/Sec 202)": 3,
+        "IS 302 (Part 2/Sec 30)": 5
+      }
+    },
+    {
+      "query_id": "syn_000486",
+      "query": "Tender for supply and delivery specifically of Live Working Gloves of Insulating Material for electrical installations.",
+      "primary_standard": "IS 13774:2021",
+      "near_match_candidates": [
+        "IS 14772:2020",
+        "IS 14927 (Part 2):2001",
+        "IS 1258:2005"
+      ],
+      "retrieved_top_10": [
+        "IS 13774:2021",
+        "IS 694",
+        "IS 14772:2020",
+        "IS 17505 (Part 1):2021",
+        "IS 302 (Part 2/Sec 3)",
+        "IS 14927 (Part 2):2001",
+        "IS 1258:2005",
+        "IS 302 : Part 1 (2024)",
+        "IS 302 (Part 2/Sec 201)",
+        "IS 18316:2023"
+      ],
+      "primary_rank": 1,
+      "near_match_ranks": {
+        "IS 14772:2020": 3,
+        "IS 14927 (Part 2):2001": 6,
+        "IS 1258:2005": 7
+      }
+    },
+    {
+      "query_id": "syn_000487",
+      "query": "Competitive bids invited specifically for Steel tubes specifically for structural purposes to satisfy technical requirements for water, gas or structural piping.",
+      "primary_standard": "IS 1161:2014",
+      "near_match_candidates": [
+        "IS 1239 (Part 1):2014",
+        "IS 4270:2001",
+        "IS 15911:2010"
+      ],
+      "retrieved_top_10": [
+        "IS 1161:2014",
+        "IS 4270:2001",
+        "IS 1239 (Part 1):2014",
+        "IS 9523:2000",
+        "IS 8329:2000",
+        "IS 15911:2010",
+        "IS 3196 (Part 1)",
+        "IS 18384:2023",
+        "IS 7285 (Part 1)",
+        "IS 14810:2000"
+      ],
+      "primary_rank": 1,
+      "near_match_ranks": {
+        "IS 1239 (Part 1):2014": 3,
+        "IS 4270:2001": 2,
+        "IS 15911:2010": 6
+      }
+    },
+    {
+      "query_id": "syn_000488",
+      "query": "Requisition for procurement conforming specifically to Residual current operated circuit breakers specifically without integral overcurrent protection (RCCBs) for project execution for electrical installations and appliances.",
+      "primary_standard": "IS 12640 (Part 1)",
+      "near_match_candidates": [
+        "IS 12640 (Part 2)",
+        "IS 302 (Part 2/Sec 3)",
+        "IS 302 (Part 2/Sec 201)"
+      ],
+      "retrieved_top_10": [
+        "IS 12640 (Part 1)",
+        "IS 12640 (Part 2)",
+        "IS 3854",
+        "IS 14772:2020",
+        "IS 302 : Part 1 (2024)",
+        "IS 13774:2021",
+        "IS 302 (Part 2/Sec 202)",
+        "IS 302 (Part 2/Sec 3)",
+        "IS 13779",
+        "IS 302 (Part 2/Sec 30)"
+      ],
+      "primary_rank": 1,
+      "near_match_ranks": {
+        "IS 12640 (Part 2)": 2,
+        "IS 302 (Part 2/Sec 3)": 8,
+        "IS 302 (Part 2/Sec 201)": null
+      }
+    },
+    {
+      "query_id": "syn_000489",
+      "query": "Requisition for procurement conforming specifically to Low pressure regulators specifically for use with liquefied petroleum gas (LPG) mixtures for project execution for gas and LPG systems.",
+      "primary_standard": "IS 9798",
+      "near_match_candidates": [
+        "IS 3196 (Part 1)",
+        "IS 4246:2025",
+        "IS 3224"
+      ],
+      "retrieved_top_10": [
+        "IS 9798",
+        "IS 3196 (Part 1)",
+        "IS 3224",
+        "IS 4246:2025",
+        "IS 15558",
+        "IS 7285 (Part 1)",
+        "IS 17153:2019",
+        "IS 8329:2000",
+        "IS 16644:2018",
+        "IS 9523:2000"
+      ],
+      "primary_rank": 1,
+      "near_match_ranks": {
+        "IS 3196 (Part 1)": 2,
+        "IS 4246:2025": 4,
+        "IS 3224": 3
+      }
+    },
+    {
+      "query_id": "syn_000490",
+      "query": "Tender for supply and delivery specifically of Aniline for chemical processing and industrial materials.",
+      "primary_standard": "IS 2833:2019",
+      "near_match_candidates": [
+        "IS 252:2013",
+        "IS 10116:2015",
+        "IS 15573"
+      ],
+      "retrieved_top_10": [
+        "IS 2833:2019",
+        "IS 10116:2015",
+        "IS 15573",
+        "IS 252:2013",
+        "IS 18316:2023",
+        "IS 15911:2010",
+        "IS 8042",
+        "IS 16415:2015",
+        "IS 16627:2017",
+        "IS 12330"
+      ],
+      "primary_rank": 1,
+      "near_match_ranks": {
+        "IS 252:2013": 4,
+        "IS 10116:2015": 2,
+        "IS 15573": 3
+      }
+    },
+    {
+      "query_id": "syn_000491",
+      "query": "Requisition for procurement conforming specifically to Personal protective equipment specifically Protective Footwear classification for project execution for personal protective equipment.",
+      "primary_standard": "IS 15298 (Part 3):2019",
+      "near_match_candidates": [
+        "IS 15298 (Part 2):2016",
+        "IS 15298 (Part 4):2017",
+        "IS 4151:2015"
+      ],
+      "retrieved_top_10": [
+        "IS 15298 (Part 3):2019",
+        "IS 15298 (Part 4):2017",
+        "IS 15298 (Part 2):2016",
+        "IS 4151:2015",
+        "IS 13774:2021",
+        "IS 7620 (Part 1)",
+        "IS 3055 (Part 1)",
+        "IS 3055 (Part 2)",
+        "IS 302 : Part 1 (2024)",
+        "IS 16018:2012"
+      ],
+      "primary_rank": 1,
+      "near_match_ranks": {
+        "IS 15298 (Part 2):2016": 3,
+        "IS 15298 (Part 4):2017": 2,
+        "IS 4151:2015": 4
+      }
+    },
+    {
+      "query_id": "syn_000492",
+      "query": "Procurement specification for supply of Cast iron manhole covers and frames intended for use for drainage and civil infrastructure.",
+      "primary_standard": "IS 1726:1991",
+      "near_match_candidates": [
+        "IS 1729:2002",
+        "IS 210:2009",
+        "IS 8329:2000"
+      ],
+      "retrieved_top_10": [
+        "IS 1726:1991",
+        "IS 1729:2002",
+        "IS 210:2009",
+        "IS 8329:2000",
+        "IS 9523:2000",
+        "IS 1161:2014",
+        "IS 4270:2001",
+        "IS 18316:2023",
+        "IS 302 (Part 2/Sec 3)",
+        "IS 18384:2023"
+      ],
+      "primary_rank": 1,
+      "near_match_ranks": {
+        "IS 1729:2002": 2,
+        "IS 210:2009": 3,
+        "IS 8329:2000": 4
+      }
+    },
+    {
+      "query_id": "syn_000493",
+      "query": "Tender for supply and delivery specifically of Sulphate Resisting Portland Cement formulated specifically against sulphate attack for construction.",
+      "primary_standard": "IS 12330",
+      "near_match_candidates": [
+        "IS 269",
+        "IS 455",
+        "IS 1489 (Part 1)"
+      ],
+      "retrieved_top_10": [
+        "IS 12330",
+        "IS 455",
+        "IS 269",
+        "IS 8041",
+        "IS 8042",
+        "IS 1489 (Part 1)",
+        "IS 1489 (Part 2)",
+        "IS 16415:2015",
+        "IS 16644:2018",
+        "IS 15911:2010"
+      ],
+      "primary_rank": 1,
+      "near_match_ranks": {
+        "IS 269": 3,
+        "IS 455": 2,
+        "IS 1489 (Part 1)": 6
+      }
+    },
+    {
+      "query_id": "syn_000494",
+      "query": "Tender for supply and delivery specifically of Portland Slag Cement incorporating granulated blast furnace slag for construction.",
+      "primary_standard": "IS 455",
+      "near_match_candidates": [
+        "IS 269",
+        "IS 1489 (Part 1)",
+        "IS 1489 (Part 2)"
+      ],
+      "retrieved_top_10": [
+        "IS 455",
+        "IS 269",
+        "IS 8042",
+        "IS 8041",
+        "IS 1489 (Part 1)",
+        "IS 12330",
+        "IS 1489 (Part 2)",
+        "IS 16415:2015",
+        "IS 16644:2018",
+        "IS 15911:2010"
+      ],
+      "primary_rank": 1,
+      "near_match_ranks": {
+        "IS 269": 2,
+        "IS 1489 (Part 1)": 5,
+        "IS 1489 (Part 2)": 7
+      }
+    },
+    {
+      "query_id": "syn_000495",
+      "query": "Competitive bids invited specifically for Safety of household electrical appliances specifically for electric immersion water-heaters to satisfy technical requirements for electrical installations and appliances.",
+      "primary_standard": "IS 302 (Part 2/Sec 201)",
+      "near_match_candidates": [
+        "IS 302 (Part 2/Sec 3)",
+        "IS 302 (Part 2/Sec 202)",
+        "IS 302 (Part 2/Sec 30)"
+      ],
+      "retrieved_top_10": [
+        "IS 302 (Part 2/Sec 201)",
+        "IS 302 (Part 2/Sec 30)",
+        "IS 302 : Part 1 (2024)",
+        "IS 302 (Part 2/Sec 202)",
+        "IS 302 (Part 2/Sec 3)",
+        "IS 15111 (Part 1 & 2)",
+        "IS 14772:2020",
+        "IS 12640 (Part 1)",
+        "IS 12640 (Part 2)",
+        "IS 374:2019"
+      ],
+      "primary_rank": 1,
+      "near_match_ranks": {
+        "IS 302 (Part 2/Sec 3)": 5,
+        "IS 302 (Part 2/Sec 202)": 4,
+        "IS 302 (Part 2/Sec 30)": 2
+      }
+    },
+    {
+      "query_id": "syn_000496",
+      "query": "Tender for supply and delivery specifically of Composite Cement manufactured from multi-constituent mineral blending for construction.",
+      "primary_standard": "IS 16415:2015",
+      "near_match_candidates": [
+        "IS 269",
+        "IS 455",
+        "IS 1489 (Part 1)"
+      ],
+      "retrieved_top_10": [
+        "IS 16415:2015",
+        "IS 8042",
+        "IS 269",
+        "IS 1489 (Part 1)",
+        "IS 455",
+        "IS 1489 (Part 2)",
+        "IS 8041",
+        "IS 12330",
+        "IS 16644:2018",
+        "IS 15911:2010"
+      ],
+      "primary_rank": 1,
+      "near_match_ranks": {
+        "IS 269": 3,
+        "IS 455": 5,
+        "IS 1489 (Part 1)": 4
+      }
+    },
+    {
+      "query_id": "syn_000497",
+      "query": "Tender for supply and delivery specifically of Block Boards consisting of solid timber core blocks bonded between wood veneers for furniture and boards and interior products.",
+      "primary_standard": "IS 1659:2004",
+      "near_match_candidates": [
+        "IS 12823:2015",
+        "IS 3087:2005",
+        "IS 12406:2021"
+      ],
+      "retrieved_top_10": [
+        "IS 1659:2004",
+        "IS 12823:2015",
+        "IS 3087:2005",
+        "IS 12406:2021",
+        "IS 3055 (Part 1)",
+        "IS 14772:2020",
+        "IS 13774:2021",
+        "IS 18385:2023",
+        "IS 15911:2010",
+        "IS 208:2020"
+      ],
+      "primary_rank": 1,
+      "near_match_ranks": {
+        "IS 12823:2015": 2,
+        "IS 3087:2005": 3,
+        "IS 12406:2021": 4
+      }
+    },
+    {
+      "query_id": "syn_000498",
+      "query": "Competitive bids invited specifically for Household and similar electrical appliances safety general requirements (Seventh Revision) to satisfy technical requirements for electrical installations and appliances.",
+      "primary_standard": "IS 302 : Part 1 (2024)",
+      "near_match_candidates": [
+        "IS 302 (Part 2/Sec 3)",
+        "IS 302 (Part 2/Sec 201)",
+        "IS 302 (Part 2/Sec 202)"
+      ],
+      "retrieved_top_10": [
+        "IS 302 : Part 1 (2024)",
+        "IS 302 (Part 2/Sec 202)",
+        "IS 302 (Part 2/Sec 201)",
+        "IS 302 (Part 2/Sec 30)",
+        "IS 302 (Part 2/Sec 3)",
+        "IS 14772:2020",
+        "IS 15111 (Part 1 & 2)",
+        "IS 3854",
+        "IS 12640 (Part 1)",
+        "IS 12640 (Part 2)"
+      ],
+      "primary_rank": 1,
+      "near_match_ranks": {
+        "IS 302 (Part 2/Sec 3)": 5,
+        "IS 302 (Part 2/Sec 201)": 3,
+        "IS 302 (Part 2/Sec 202)": 2
+      }
+    },
+    {
+      "query_id": "syn_000499",
+      "query": "Tender for supply and delivery specifically of Refillable seamless steel gas cylinders specifically of normalized steel construction for gas and LPG systems.",
+      "primary_standard": "IS 7285 (Part 1)",
+      "near_match_candidates": [
+        "IS 3196 (Part 1)",
+        "IS 3224",
+        "IS 4246:2025"
+      ],
+      "retrieved_top_10": [
+        "IS 7285 (Part 1)",
+        "IS 3196 (Part 1)",
+        "IS 3224",
+        "IS 4246:2025",
+        "IS 17153:2019",
+        "IS 9798",
+        "IS 8329:2000",
+        "IS 1239 (Part 1):2014",
+        "IS 1161:2014",
+        "IS 4270:2001"
+      ],
+      "primary_rank": 1,
+      "near_match_ranks": {
+        "IS 3196 (Part 1)": 2,
+        "IS 3224": 3,
+        "IS 4246:2025": 4
+      }
+    },
+    {
+      "query_id": "syn_000500",
+      "query": "Requisition for procurement conforming specifically to Clinical thermometers specifically of solid stem type for project execution for medical equipment.",
+      "primary_standard": "IS 3055 (Part 1)",
+      "near_match_candidates": [
+        "IS 3055 (Part 2)",
+        "IS 7620 (Part 1)",
+        "IS 15298 (Part 2):2016"
+      ],
+      "retrieved_top_10": [
+        "IS 3055 (Part 1)",
+        "IS 3055 (Part 2)",
+        "IS 7620 (Part 1)",
+        "IS 15298 (Part 4):2017",
+        "IS 15298 (Part 2):2016",
+        "IS 878:2008",
+        "IS 15298 (Part 3):2019",
+        "IS 13774:2021",
+        "IS 2619:2018",
+        "IS 374:2019"
+      ],
+      "primary_rank": 1,
+      "near_match_ranks": {
+        "IS 3055 (Part 2)": 2,
+        "IS 7620 (Part 1)": 3,
+        "IS 15298 (Part 2):2016": 5
+      }
+    }
+  ]
+}
