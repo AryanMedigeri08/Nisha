@@ -1,0 +1,64 @@
+{
+  "database_validation_timestamp": "2026-09-29T04:21:55.869150",
+  "standards": {
+    "total": 91,
+    "with_year": 58,
+    "without_year": 33,
+    "suspicious_years": [],
+    "with_materials": 38,
+    "with_technical_parameters": 8,
+    "without_source_url": 0,
+    "duplicate_normalized_is_numbers": {
+      "IS": 7,
+      "IS1": 7
+    },
+    "sector_distribution": {
+      "Electrical": 13,
+      "Cement": 8,
+      "Steel": 8,
+      "Gas & LPG": 6,
+      "HVAC": 5,
+      "Pipes & Water": 4,
+      "Transformers & Motors": 4,
+      "Chemicals": 4,
+      "Footwear/PPE": 4,
+      "Wood Products": 4,
+      "Electrical Accessories": 4,
+      "Medical": 3,
+      "Kitchen Appliances": 3,
+      "Cast Iron": 3,
+      "Laboratory Glassware": 3,
+      "Agriculture": 3,
+      "Copper": 3,
+      "Fire Safety": 2,
+      "Refrigeration": 2,
+      "Solar & Cables": 2,
+      "Door Fittings": 2,
+      "Water Treatment": 1
+    },
+    "facet_sources": {
+      "derived from standard title + sector; NOT authoritative scope text": 91
+    }
+  },
+  "references": {
+    "total": 1,
+    "type_distribution": {
+      "general_safety_framework": 1
+    }
+  },
+  "qco": {
+    "total_orders": 35,
+    "total_standard_links": 91,
+    "status_distribution": {
+      "needs_current_order_resolution": 35
+    },
+    "missing_effective_date": 35,
+    "missing_notifying_authority": 0,
+    "link_count_mismatches": []
+  },
+  "data_quality_flags": [
+    "[!] 2 duplicate normalized IS numbers detected",
+    "[!] ALL QCO orders have missing effective_date - needs resolution",
+    "[!] Only 1 reference edges - knowledge graph will be sparse"
+  ]
+}

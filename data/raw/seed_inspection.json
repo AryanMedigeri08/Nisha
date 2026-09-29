@@ -1,0 +1,552 @@
+﻿{
+  "sheets": {
+    "standards_seed": {
+      "headers": [
+        "standard_id",
+        "is_number",
+        "title",
+        "sector",
+        "status",
+        "scheme",
+        "qco_or_regulatory_order",
+        "certification_status",
+        "year_in_is_number",
+        "source_url",
+        "source_type",
+        "source_as_of",
+        "product_aliases",
+        "application",
+        "materials",
+        "technical_parameters",
+        "facet_source"
+      ],
+      "row_count": 91,
+      "columns": {
+        "standard_id": {
+          "total": 91,
+          "non_null": 91,
+          "null": 0,
+          "unique": 91,
+          "sample_values": [
+            "is_12615",
+            "is_17293_2020",
+            "is_694",
+            "is_3854",
+            "is_1391_part_1_2017"
+          ]
+        },
+        "is_number": {
+          "total": 91,
+          "non_null": 91,
+          "null": 0,
+          "unique": 91,
+          "sample_values": [
+            "IS 7285 (Part 1)",
+            "IS 6343:1982",
+            "IS 8041",
+            "IS 15573",
+            "IS 13779"
+          ]
+        },
+        "title": {
+          "total": 91,
+          "non_null": 91,
+          "null": 0,
+          "unique": 91,
+          "sample_values": [
+            "Household and Similar Electrical Appliances - Safety Part 1 General Requirements (Seventh Revision)",
+            "Steel tubes for structural purposes",
+            "Clinical thermometers - Part 1: Solid stem type",
+            "Medium density fibre boards for general purpose",
+            "Flexible Water Storage Tank for Agriculture and Horticulture Purposes"
+          ]
+        },
+        "sector": {
+          "total": 91,
+          "non_null": 91,
+          "null": 0,
+          "unique": 22,
+          "sample_values": [
+            "Chemicals",
+            "Water Treatment",
+            "Refrigeration",
+            "HVAC",
+            "Pipes & Water"
+          ]
+        },
+        "status": {
+          "total": 91,
+          "non_null": 91,
+          "null": 0,
+          "unique": 1,
+          "sample_values": [
+            "scheme1_listed_source_record"
+          ]
+        },
+        "scheme": {
+          "total": 91,
+          "non_null": 91,
+          "null": 0,
+          "unique": 1,
+          "sample_values": [
+            "Scheme-I (ISI Mark)"
+          ]
+        },
+        "qco_or_regulatory_order": {
+          "total": 91,
+          "non_null": 91,
+          "null": 0,
+          "unique": 35,
+          "sample_values": [
+            "Steel Tubes / product-specific QCO framework",
+            "Air Conditioner and related parts (Quality Control) Order, 2019 and amendments",
+            "Laboratory Glassware (Quality Control) Order, 2023",
+            "Electrical Transformers (Quality Control) Order, 2015",
+            "Bureau of Indian Standard (Caustic Soda) Order, 2018"
+          ]
+        },
+        "certification_status": {
+          "total": 91,
+          "non_null": 91,
+          "null": 0,
+          "unique": 1,
+          "sample_values": [
+            "listed_or_regulatory_reference_present; resolve current legal applicability separately"
+          ]
+        },
+        "year_in_is_number": {
+          "total": 91,
+          "non_null": 72,
+          "null": 19,
+          "unique": 37,
+          "sample_values": [
+            "2019",
+            "1261",
+            "2024",
+            "1991",
+            "1982"
+          ]
+        },
+        "source_url": {
+          "total": 91,
+          "non_null": 91,
+          "null": 0,
+          "unique": 1,
+          "sample_values": [
+            "https://www.bis.gov.in/product-certification/products-under-compulsory-certification/scheme-1/?lang=en"
+          ]
+        },
+        "source_type": {
+          "total": 91,
+          "non_null": 91,
+          "null": 0,
+          "unique": 1,
+          "sample_values": [
+            "BIS Scheme-I page"
+          ]
+        },
+        "source_as_of": {
+          "total": 91,
+          "non_null": 91,
+          "null": 0,
+          "unique": 1,
+          "sample_values": [
+            "2026-09-29"
+          ]
+        },
+        "product_aliases": {
+          "total": 91,
+          "non_null": 91,
+          "null": 0,
+          "unique": 1,
+          "sample_values": [
+            "[]"
+          ]
+        },
+        "application": {
+          "total": 91,
+          "non_null": 91,
+          "null": 0,
+          "unique": 22,
+          "sample_values": [
+            "water, gas or structural piping",
+            "laboratory measurement / handling",
+            "chemical processing / industrial materials",
+            "electrical / plumbing / engineering",
+            "domestic kitchen appliances"
+          ]
+        },
+        "materials": {
+          "total": 91,
+          "non_null": 91,
+          "null": 0,
+          "unique": 13,
+          "sample_values": [
+            "['pvc']",
+            "['cement']",
+            "['steel']",
+            "[]",
+            "['steel', 'aluminium']"
+          ]
+        },
+        "technical_parameters": {
+          "total": 91,
+          "non_null": 91,
+          "null": 0,
+          "unique": 9,
+          "sample_values": [
+            "['voltage', '1100 V']",
+            "['water capacity']",
+            "[]",
+            "['200 mm']",
+            "['kg', '40 kg']"
+          ]
+        },
+        "facet_source": {
+          "total": 91,
+          "non_null": 91,
+          "null": 0,
+          "unique": 1,
+          "sample_values": [
+            "derived from standard title + sector; NOT authoritative scope text"
+          ]
+        }
+      },
+      "sample_rows": [
+        {
+          "standard_id": "is_269",
+          "is_number": "IS 269",
+          "title": "Ordinary Portland Cement",
+          "sector": "Cement",
+          "status": "scheme1_listed_source_record",
+          "scheme": "Scheme-I (ISI Mark)",
+          "qco_or_regulatory_order": "Cement (Quality Control) Order, 2003",
+          "certification_status": "listed_or_regulatory_reference_present; resolve current legal applicability separately",
+          "year_in_is_number": null,
+          "source_url": "https://www.bis.gov.in/product-certification/products-under-compulsory-certification/scheme-1/?lang=en",
+          "source_type": "BIS Scheme-I page",
+          "source_as_of": "2026-09-29",
+          "product_aliases": "[]",
+          "application": "construction",
+          "materials": "['cement']",
+          "technical_parameters": "[]",
+          "facet_source": "derived from standard title + sector; NOT authoritative scope text"
+        },
+        {
+          "standard_id": "is_455",
+          "is_number": "IS 455",
+          "title": "Portland Slag Cement",
+          "sector": "Cement",
+          "status": "scheme1_listed_source_record",
+          "scheme": "Scheme-I (ISI Mark)",
+          "qco_or_regulatory_order": "Cement (Quality Control) Order, 2003",
+          "certification_status": "listed_or_regulatory_reference_present; resolve current legal applicability separately",
+          "year_in_is_number": null,
+          "source_url": "https://www.bis.gov.in/product-certification/products-under-compulsory-certification/scheme-1/?lang=en",
+          "source_type": "BIS Scheme-I page",
+          "source_as_of": "2026-09-29",
+          "product_aliases": "[]",
+          "application": "construction",
+          "materials": "['cement']",
+          "technical_parameters": "[]",
+          "facet_source": "derived from standard title + sector; NOT authoritative scope text"
+        },
+        {
+          "standard_id": "is_1489_part_1",
+          "is_number": "IS 1489 (Part 1)",
+          "title": "Portland Pozzolana Cement - Part 1 Fly-ash based",
+          "sector": "Cement",
+          "status": "scheme1_listed_source_record",
+          "scheme": "Scheme-I (ISI Mark)",
+          "qco_or_regulatory_order": "Cement (Quality Control) Order, 2003",
+          "certification_status": "listed_or_regulatory_reference_present; resolve current legal applicability separately",
+          "year_in_is_number": null,
+          "source_url": "https://www.bis.gov.in/product-certification/products-under-compulsory-certification/scheme-1/?lang=en",
+          "source_type": "BIS Scheme-I page",
+          "source_as_of": "2026-09-29",
+          "product_aliases": "[]",
+          "application": "construction",
+          "materials": "['cement']",
+          "technical_parameters": "[]",
+          "facet_source": "derived from standard title + sector; NOT authoritative scope text"
+        }
+      ]
+    },
+    "reference_seed": {
+      "headers": [
+        "source_standard",
+        "target_standard",
+        "reference_type",
+        "evidence_source",
+        "source_url"
+      ],
+      "row_count": 3,
+      "columns": {
+        "source_standard": {
+          "total": 3,
+          "non_null": 3,
+          "null": 0,
+          "unique": 2,
+          "sample_values": [
+            "IS 374:2019",
+            "IS 302 : Part 2 : Sec 80 (2017)"
+          ]
+        },
+        "target_standard": {
+          "total": 3,
+          "non_null": 3,
+          "null": 0,
+          "unique": 2,
+          "sample_values": [
+            "IS 302 : Part 2 : Sec 80 (2017)",
+            "IS 302 : Part 1 (2024)"
+          ]
+        },
+        "reference_type": {
+          "total": 3,
+          "non_null": 3,
+          "null": 0,
+          "unique": 3,
+          "sample_values": [
+            "safety/particular_requirements",
+            "general_safety_framework",
+            "general_requirements"
+          ]
+        },
+        "evidence_source": {
+          "total": 3,
+          "non_null": 3,
+          "null": 0,
+          "unique": 3,
+          "sample_values": [
+            "BIS LIMS explicitly cites classification/marking/testing clauses of IS 302-2-80:2017 for IS 374:2019; BIS source PDF also describes compliance with it.",
+            "BIS LIMS records exclusions tied to IS 302-1; use as a candidate graph edge pending full standard-reference verification.",
+            "BIS LIMS places both standards in the same household-appliance safety framework and references IS 302-1 clauses in testing exclusions; verify exact reference wording before production."
+          ]
+        },
+        "source_url": {
+          "total": 3,
+          "non_null": 3,
+          "null": 0,
+          "unique": 2,
+          "sample_values": [
+            "https://lims.bis.gov.in/home_lab_scope/2254/",
+            "https://lims.bis.gov.in/home/search_is_number/?is_number__doc_no=374"
+          ]
+        }
+      },
+      "sample_rows": [
+        {
+          "source_standard": "IS 374:2019",
+          "target_standard": "IS 302 : Part 2 : Sec 80 (2017)",
+          "reference_type": "safety/particular_requirements",
+          "evidence_source": "BIS LIMS explicitly cites classification/marking/testing clauses of IS 302-2-80:2017 for IS 374:2019; BIS source PDF also describes compliance with it.",
+          "source_url": "https://lims.bis.gov.in/home/search_is_number/?is_number__doc_no=374"
+        },
+        {
+          "source_standard": "IS 374:2019",
+          "target_standard": "IS 302 : Part 1 (2024)",
+          "reference_type": "general_safety_framework",
+          "evidence_source": "BIS LIMS records exclusions tied to IS 302-1; use as a candidate graph edge pending full standard-reference verification.",
+          "source_url": "https://lims.bis.gov.in/home_lab_scope/2254/"
+        },
+        {
+          "source_standard": "IS 302 : Part 2 : Sec 80 (2017)",
+          "target_standard": "IS 302 : Part 1 (2024)",
+          "reference_type": "general_requirements",
+          "evidence_source": "BIS LIMS places both standards in the same household-appliance safety framework and references IS 302-1 clauses in testing exclusions; verify exact reference wording before production.",
+          "source_url": "https://lims.bis.gov.in/home_lab_scope/2254/"
+        }
+      ]
+    },
+    "qco_seed": {
+      "headers": [
+        "qco_id",
+        "order_name",
+        "linked_seed_standards_count",
+        "status",
+        "effective_date",
+        "notifying_authority",
+        "source_url",
+        "source_type",
+        "note"
+      ],
+      "row_count": 35,
+      "columns": {
+        "qco_id": {
+          "total": 35,
+          "non_null": 35,
+          "null": 0,
+          "unique": 35,
+          "sample_values": [
+            "qco_010",
+            "qco_031",
+            "qco_032",
+            "qco_004",
+            "qco_024"
+          ]
+        },
+        "order_name": {
+          "total": 35,
+          "non_null": 35,
+          "null": 0,
+          "unique": 35,
+          "sample_values": [
+            "Steel Tubes / product-specific QCO framework",
+            "Air Conditioner and related parts (Quality Control) Order, 2019 and amendments",
+            "Laboratory Glassware (Quality Control) Order, 2023",
+            "Electrical Transformers (Quality Control) Order, 2015",
+            "Bureau of Indian Standard (Caustic Soda) Order, 2018"
+          ]
+        },
+        "linked_seed_standards_count": {
+          "total": 35,
+          "non_null": 35,
+          "null": 0,
+          "unique": 8,
+          "sample_values": [
+            "8",
+            "5",
+            "2",
+            "7",
+            "11"
+          ]
+        },
+        "status": {
+          "total": 35,
+          "non_null": 35,
+          "null": 0,
+          "unique": 1,
+          "sample_values": [
+            "needs_current_order_resolution"
+          ]
+        },
+        "effective_date": {
+          "total": 35,
+          "non_null": 0,
+          "null": 35,
+          "unique": 0,
+          "sample_values": []
+        },
+        "notifying_authority": {
+          "total": 35,
+          "non_null": 0,
+          "null": 35,
+          "unique": 0,
+          "sample_values": []
+        },
+        "source_url": {
+          "total": 35,
+          "non_null": 35,
+          "null": 0,
+          "unique": 1,
+          "sample_values": [
+            "https://www.bis.gov.in/product-certification/products-under-compulsory-certification/scheme-1/?lang=en"
+          ]
+        },
+        "source_type": {
+          "total": 35,
+          "non_null": 35,
+          "null": 0,
+          "unique": 1,
+          "sample_values": [
+            "BIS Scheme-I page"
+          ]
+        },
+        "note": {
+          "total": 35,
+          "non_null": 35,
+          "null": 0,
+          "unique": 1,
+          "sample_values": [
+            "Do not use this row alone for a legal mandatory/voluntary decision; resolve the current notification and effective date."
+          ]
+        }
+      },
+      "sample_rows": [
+        {
+          "qco_id": "qco_001",
+          "order_name": "Cement (Quality Control) Order, 2003",
+          "linked_seed_standards_count": "8",
+          "status": "needs_current_order_resolution",
+          "effective_date": null,
+          "notifying_authority": null,
+          "source_url": "https://www.bis.gov.in/product-certification/products-under-compulsory-certification/scheme-1/?lang=en",
+          "source_type": "BIS Scheme-I page",
+          "note": "Do not use this row alone for a legal mandatory/voluntary decision; resolve the current notification and effective date."
+        },
+        {
+          "qco_id": "qco_002",
+          "order_name": "Electrical Wires, Cables, Appliances and Protection Devices and Accessories (Quality Control) Order",
+          "linked_seed_standards_count": "11",
+          "status": "needs_current_order_resolution",
+          "effective_date": null,
+          "notifying_authority": null,
+          "source_url": "https://www.bis.gov.in/product-certification/products-under-compulsory-certification/scheme-1/?lang=en",
+          "source_type": "BIS Scheme-I page",
+          "note": "Do not use this row alone for a legal mandatory/voluntary decision; resolve the current notification and effective date."
+        },
+        {
+          "qco_id": "qco_003",
+          "order_name": "Electric Ceiling Type Fans (Quality Control) Order, 2023",
+          "linked_seed_standards_count": "1",
+          "status": "needs_current_order_resolution",
+          "effective_date": null,
+          "notifying_authority": null,
+          "source_url": "https://www.bis.gov.in/product-certification/products-under-compulsory-certification/scheme-1/?lang=en",
+          "source_type": "BIS Scheme-I page",
+          "note": "Do not use this row alone for a legal mandatory/voluntary decision; resolve the current notification and effective date."
+        }
+      ]
+    },
+    "README": {
+      "headers": [
+        "Dataset name",
+        "PS26108 Seed Knowledge Base v1"
+      ],
+      "row_count": 10,
+      "columns": {
+        "Dataset name": {
+          "total": 10,
+          "non_null": 10,
+          "null": 0,
+          "unique": 10,
+          "sample_values": [
+            "Synthetic-data rule",
+            "Reference-edge rule",
+            "Secondary source",
+            "Important limitation",
+            "Purpose"
+          ]
+        },
+        "PS26108 Seed Knowledge Base v1": {
+          "total": 10,
+          "non_null": 10,
+          "null": 0,
+          "unique": 10,
+          "sample_values": [
+            "BIS LIMS pages used to verify selected current/recent records and reference relationships.",
+            "Only use edges marked in reference_seed as candidate/verified; do not infer normative references from semantic similarity alone.",
+            "This is a seed dataset, not a complete BIS corpus. Scheme-I listing is not treated as proof of current legal applicability for every row.",
+            "Bootstrap dataset for synthetic tender/specification generation and retrieval experiments.",
+            "3"
+          ]
+        }
+      },
+      "sample_rows": [
+        {
+          "Dataset name": "Purpose",
+          "PS26108 Seed Knowledge Base v1": "Bootstrap dataset for synthetic tender/specification generation and retrieval experiments."
+        },
+        {
+          "Dataset name": "Standards rows",
+          "PS26108 Seed Knowledge Base v1": "91"
+        },
+        {
+          "Dataset name": "Reference edges",
+          "PS26108 Seed Knowledge Base v1": "3"
+        }
+      ]
+    }
+  }
+}
