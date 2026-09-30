@@ -1,0 +1,51 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:15-alpine
+    container_name: ps26108_db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ps26108_user
+      POSTGRES_PASSWORD: ps26108_pass
+      POSTGRES_DB: ps26108_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ps26108_user -d ps26108_db"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ps26108_app
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      - DATABASE_URL=postgresql://ps26108_user:ps26108_pass@db:5432/ps26108_db
+      - ENVIRONMENT=production
+      - API_HOST=0.0.0.0
+      - API_PORT=8000
+      - EMBEDDING_MODEL=all-MiniLM-L6-v2
+      - RERANKER_MODEL=cross-encoder/ms-marco-MiniLM-L-6-v2
+      - CORS_ORIGINS=*
+    ports:
+      - "8000:8000"
+    volumes:
+      - app_data:/app/data
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+volumes:
+  postgres_data:
+  app_data:
