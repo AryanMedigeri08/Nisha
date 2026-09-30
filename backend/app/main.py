@@ -36,17 +36,13 @@ _START_TIME = time.time()
 async def lifespan(app: FastAPI):
     """
     Application lifespan handler.
-    Initializes database schema and pre-warms AI pipeline models once at startup.
+    Initializes database schema at startup.
+    AI pipeline models are loaded lazily when a review is created.
     """
     logger.info("Initializing PS26108 Database...")
     init_db()
 
-    logger.info("Pre-warming AI pipeline models (SentenceTransformers, Reranker, Knowledge Graph)...")
-    try:
-        PipelineContext.get_instance()
-        logger.info("All pipeline models loaded and ready for deterministic inference.")
-    except Exception as e:
-        logger.error(f"Failed to pre-warm pipeline context: {e}", exc_info=True)
+    logger.info("PS26108 application startup complete. AI pipeline will load on first review request.")
 
     yield
 
