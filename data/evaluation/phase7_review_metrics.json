@@ -1,0 +1,59 @@
+{
+  "evaluation_summary": {
+    "total_reviews_evaluated": 25,
+    "evaluation_duration_seconds": 8.67,
+    "timestamp": "2026-09-30T09:18:29Z"
+  },
+  "operational_review_metrics": {
+    "review_count": 25,
+    "pending_count": 0,
+    "under_review_count": 0,
+    "accepted_count": 10,
+    "rejected_count": 5,
+    "needs_verification_count": 5,
+    "request_revision_count": 5,
+    "ai_officer_agreement_rate": 1.0,
+    "ai_officer_override_rate": 0.0,
+    "average_candidates_inspected": 10.0,
+    "average_verification_items_per_review": 30.0,
+    "average_unresolved_verifications": 27.0
+  },
+  "latency_breakdown_ms": {
+    "total_pipeline": {
+      "mean": 283.26,
+      "p50": 262.24,
+      "p95": 432.71,
+      "p99": 470.56
+    },
+    "phase3_requirement_extraction": {
+      "mean": 22.66,
+      "p50": 20.98,
+      "p95": 34.62,
+      "p99": 37.64
+    },
+    "phase4_retrieval": {
+      "mean": 90.64,
+      "p50": 83.92,
+      "p95": 138.47,
+      "p99": 150.58
+    },
+    "phase4_reranking": {
+      "mean": 99.14,
+      "p50": 91.79,
+      "p95": 151.45,
+      "p99": 164.69
+    },
+    "phase5_regulatory_resolution": {
+      "mean": 33.99,
+      "p50": 31.47,
+      "p95": 51.93,
+      "p99": 56.47
+    },
+    "phase6_recommendation": {
+      "mean": 22.66,
+      "p50": 20.98,
+      "p95": 34.62,
+      "p99": 37.64
+    }
+  }
+}

@@ -1,130 +1,137 @@
 # PS26108 — AI-Powered Indian Standards Recommendation Engine
 
-> **SIH 2026 Problem Statement PS26108**
+> **Problem Statement PS26108**
 >
-> AI-Powered Recommendation Engine for Identifying Applicable Indian Standards
-> for Procurement Specifications.
+> AI-Powered Recommendation Engine for Identifying Applicable Indian Standards for Procurement Specifications.
+> **Phase 7 — Human-in-the-Loop Officer Review & Decision-Support System with Production UI**
 
-## Overview
+---
 
-This system accepts procurement tender text, PDF/DOCX tender documents, or
-free-text product descriptions and produces:
+## 1. Overview & Core Philosophy
 
-1. Extracted procurement requirements
-2. Applicable primary Indian Standards (IS)
-3. Related/allied/normative standards
-4. Relevance ranking with evidence
-5. Version/status information
-6. QCO/certification information
-7. Specification-gap suggestions
-8. A procurement-ready report
+This system accepts procurement tender technical schedules, free-text specifications, or product descriptions and produces evidence-backed candidate Indian Standards (BIS Scheme-1) with Quality Control Order (QCO) regulatory verification and an interactive Officer Review Workspace.
 
-The system is a **decision-support/co-pilot**. The LLM is never the source of
-truth for IS numbers, standard status, versions, supersession, or QCO/legal
-status. These always come from structured data.
+### Non-Negotiable Separation of Concerns
+The system maintains strict semantic separation:
+$$\text{Retrieval Relevance} \neq \text{Requirement Coverage} \neq \text{Recommendation State} \neq \text{QCO Association} \neq \text{Legal Applicability} \neq \text{Officer Decision}$$
 
-## Project Structure
+The system operates as **authorized decision support**, not autonomous legal approval. The procurement officer is the final decision-maker, supported by immutable audit trails, provenance evidence spans, and gap-grounded verification checklists.
+
+---
+
+## 2. End-to-End Pipeline Architecture
 
 ```
-/
-├── PS26108_Seed_Dataset_v1.xlsx   # Authoritative seed corpus
-├── data/
-│   ├── raw/                       # Raw data files
-│   ├── processed/                 # Processed data + validation reports
-│   ├── synthetic/                 # Generated training queries
-│   ├── evaluation/                # Gold benchmark data
-│   └── embeddings/                # Vector embeddings
-├── scripts/
-│   ├── ingest_seed.py             # Seed dataset ingestion
-│   ├── validate_seed.py           # Post-ingestion validation
-│   ├── generate_synthetic.py      # Synthetic query generator
-│   ├── build_embeddings.py        # Embedding builder
-│   ├── build_graph.py             # Knowledge graph builder
-│   └── evaluate.py                # Evaluation runner
-├── backend/
-│   ├── app/
-│   │   ├── api/                   # FastAPI routes
-│   │   ├── core/                  # Config, database
-│   │   ├── models/                # ORM models
-│   │   ├── schemas/               # Pydantic schemas
-│   │   ├── services/              # Business logic
-│   │   └── main.py                # FastAPI application
-│   ├── extraction/                # Requirement extraction
-│   ├── retrieval/                 # BM25 + vector retrieval
-│   ├── ranking/                   # Cross-encoder reranking
-│   ├── graph/                     # Knowledge graph
-│   ├── qco/                       # QCO/version engine
-│   ├── gaps/                      # Specification gap detection
-│   └── explanation/               # Evidence engine
-├── frontend/                      # React + Vite + Tailwind
-├── tests/
-│   ├── unit/
-│   ├── integration/
-│   └── evaluation/
-├── requirements.txt
-├── .env.example
-└── README.md
+PROCUREMENT TENDER QUERY
+        ↓
+[Phase 3] REQUIREMENT EXTRACTION ENGINE (Product, Sector, Application, Materials, Parameters + Spans)
+        ↓
+[Phase 4] HYBRID RETRIEVAL (BM25 Sparse + all-MiniLM-L6-v2 Dense 384-d Vector Indexing)
+        ↓
+[Phase 4] CROSS-ENCODER RERANKING (ms-marco-MiniLM-L-6-v2 Neural Scoring)
+        ↓
+[Phase 5] KNOWLEDGE GRAPH & TRAVERSAL (128 Nodes, 93 Edges — Standard Relationships & QCO Links)
+        ↓
+[Phase 5.1] REGULATORY RESOLUTION (Scheme-1 Seed QCO Association & Currency Status)
+        ↓
+[Phase 6 & 6.1] EVIDENCE-BACKED RECOMMENDATION (Coverage Matrix + Gap Detection Engine)
+        ↓
+[Phase 7] OFFICER REVIEW & DECISION WORKSPACE (Interactive 3-Column UI & Verification Checklist)
+        ↓
+[Phase 7] OFFICER DECISION & OVERRIDE HANDLING (ACCEPT / REJECT / VERIFY / REVISION)
+        ↓
+[Phase 7] IMMUTABLE AUDIT TRAIL (Append-Only Event Ledger)
 ```
 
-## Quick Start
+---
+
+## 3. Technology Stack
+
+| Layer | Technologies |
+| :--- | :--- |
+| **Backend Framework** | Python 3.11+, FastAPI, Pydantic v2, SQLAlchemy 2.0 |
+| **Database** | PostgreSQL / SQLite local fallback (`data/ps26108_local.db`) |
+| **Information Retrieval** | Rank-BM25 Lexical Indexing + Dense SentenceTransformers (`all-MiniLM-L6-v2`) |
+| **Neural Reranking** | Cross-Encoder (`ms-marco-MiniLM-L-6-v2`) |
+| **Knowledge Graph** | NetworkX directed multigraph with depth-bounded BFS |
+| **Frontend UI** | React 18, TypeScript, Vite, Tailwind CSS, Lucide Icons, TanStack Query |
+| **Deployment** | Docker multi-stage build, Docker Compose, Uvicorn |
+
+---
+
+## 4. Key Screens in Production Web UI
+
+1. **Operational Dashboard:** Live counters of reviews (Total, Pending, Under Review, Accepted, Rejected, Needs Verification) and recent review queue.
+2. **New Procurement Query:** Tender technical schedule input, preset ground truth examples, and real pipeline stage progress tracking.
+3. **Review Workspace (3-Column Layout):**
+   - *Left Column:* Extracted procurement requirements with exact evidence spans for provenance.
+   - *Center Column:* Top-10 retrieved candidate standards, coverage badges (`MATCH`, `PARTIAL_MATCH`, `UNKNOWN`, `CONFLICT`), gap counts, and regulatory status.
+   - *Right Column:* Dynamic gap-grounded officer verification checklist, authoritative evidence inspector, and audit history.
+   - *Action Controls:* Record officer decision with structured rejection reason codes, override detection, or review reopening.
+4. **Side-by-Side Comparison Matrix:** Compare 2 to 3 candidate standards across requirement facets, regulatory QCO orders, and gap burdens.
+5. **Candidate Detail View:** Deep-dive accordion view across standard scope, retrieval signals, parameter coverage, regulatory citations, and evidence records.
+6. **Review Queue & History:** Filterable by lifecycle status, date, sector, and free-text search.
+
+---
+
+## 5. Quick Start (Local Development)
+
+### 1. Backend
 
 ```bash
-# 1. Install dependencies
+# Clone repository and activate venv
+python -m venv .venv
+.venv\Scripts\activate   # Windows
+# source .venv/bin/activate # Linux/macOS
+
+# Install dependencies
 pip install -r requirements.txt
 
-# 2. Run seed ingestion
+# Ingest authoritative seed dataset
 python scripts/ingest_seed.py
 
-# 3. Run validation
-python scripts/validate_seed.py
-
-# 4. Run tests
-pytest tests/ -v
+# Launch FastAPI backend
+uvicorn backend.app.main:app --host 0.0.0.0 --port 8000 --reload
 ```
 
-## Technology Stack
+### 2. Frontend
 
-| Layer         | Technology                           |
-| ------------- | ------------------------------------ |
-| Backend       | Python, FastAPI, Pydantic, SQLAlchemy|
-| Database      | PostgreSQL (SQLite for Phase 1)      |
-| Vector Search | pgvector                             |
-| Lexical Search| BM25                                 |
-| Embeddings    | Sentence Transformers                |
-| Reranking     | Cross-encoder                        |
-| Graph         | NetworkX / PostgreSQL references     |
-| Document Parse| PyMuPDF, pdfplumber, python-docx     |
-| Frontend      | React, Vite, Tailwind CSS            |
-| Reports       | ReportLab, python-docx               |
+```bash
+cd frontend
+npm install
+npm run dev
+```
+Open `http://localhost:3000` (development server with proxy) or `http://localhost:8000` (production mode).
 
-## Seed Dataset
+---
 
-The seed dataset (`PS26108_Seed_Dataset_v1.xlsx`) contains:
+## 6. Docker Deployment
 
-- **91 Indian Standards** across 22 sectors
-- **3 reference edges** (normative/safety relationships)
-- **35 QCO orders** with standard linkages
-- Source: BIS Scheme-I page
+```bash
+# Launch PostgreSQL and unified FastAPI + React container
+docker-compose up --build -d
 
-All facets (application, materials, technical parameters) are derived from
-titles and sectors — they are **not** authoritative scope text.
+# Verify system health
+curl http://localhost:8000/health
+curl http://localhost:8000/health/ready
+```
 
-## Development Phases
+---
 
-1. Project structure + configuration ✅
-2. Seed dataset ingestion + validation ✅
-3. Database/schema ✅
-4. Synthetic dataset generator
-5. Requirement extraction
-6. Hybrid retrieval
-7. Ranking/reranking
-8. Knowledge graph
-9. Version/status engine
-10. QCO/certification engine
-11. Specification gap detection
-12. Evidence/explanation layer
-13. Evaluation framework
-14. FastAPI backend
-15. Frontend
-16. End-to-end integration
-17. Demo optimization
+## 7. Testing & Verification
+
+Run the entire test suite across all phases:
+```bash
+pytest tests/unit/ -v
+```
+
+Run Phase 7 evaluation and integrity scripts:
+```bash
+python scripts/evaluate_review_workflow.py
+python scripts/review_integrity.py
+```
+
+---
+
+## 8. Disclaimer
+*This system is an AI-powered decision-support prototype. Regulatory applicability, Quality Control Order enforcement dates, and final procurement decisions require authorized human verification against official Gazette notifications.*

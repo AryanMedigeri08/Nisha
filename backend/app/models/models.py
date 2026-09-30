@@ -193,3 +193,202 @@ class Recommendation(Base):
 
     def __repr__(self):
         return f"<Recommendation Q{self.query_id} → S{self.standard_id} ({self.relevance_score})>"
+
+
+# ====================================================================
+# PHASE 7: REVIEW & DECISION-SUPPORT MODELS
+# ====================================================================
+
+class Review(Base):
+    """Persistent Human-in-the-Loop review session for a procurement query."""
+    __tablename__ = "reviews"
+
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    review_id = Column(String(64), unique=True, nullable=False, index=True,
+                       comment="Human-readable ID e.g. 'REV-000001'")
+    query_id = Column(Integer, ForeignKey("queries.id"), nullable=True, index=True)
+    raw_text = Column(Text, nullable=False)
+    input_type = Column(String(64), nullable=True, default="text")
+    procurement_requirements = Column(JSON, nullable=True,
+                                      comment="Extracted ProcurementRequirements as JSON")
+    status = Column(String(64), nullable=False, default="PENDING", index=True,
+                    comment="PENDING | UNDER_REVIEW | ACCEPTED | REJECTED | NEEDS_VERIFICATION | REQUEST_REVISION")
+    selected_candidate_id = Column(Integer, nullable=True)
+    created_at = Column(DateTime, default=datetime.datetime.utcnow)
+    updated_at = Column(DateTime, default=datetime.datetime.utcnow, onupdate=datetime.datetime.utcnow)
+
+    # Relationships
+    candidates = relationship("ReviewCandidate", back_populates="review",
+                              cascade="all, delete-orphan", order_by="ReviewCandidate.retrieval_rank")
+    verification_items = relationship("VerificationItem", back_populates="review",
+                                      cascade="all, delete-orphan")
+    officer_decision = relationship("OfficerDecision", back_populates="review",
+                                    uselist=False, cascade="all, delete-orphan")
+    audit_events = relationship("AuditEvent", back_populates="review",
+                                cascade="all, delete-orphan", order_by="AuditEvent.id")
+    officer_evidences = relationship("OfficerEvidence", back_populates="review",
+                                     cascade="all, delete-orphan")
+
+    def __repr__(self):
+        return f"<Review {self.review_id} – {self.status}>"
+
+
+class ReviewCandidate(Base):
+    """Candidate standard evaluated for a specific review."""
+    __tablename__ = "review_candidates"
+
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    review_id = Column(Integer, ForeignKey("reviews.id"), nullable=False, index=True)
+    standard_id = Column(String(128), nullable=False, index=True)
+    is_number = Column(String(256), nullable=False)
+    title = Column(Text, nullable=False)
+    sector = Column(String(256), nullable=True)
+    application = Column(Text, nullable=True)
+    materials = Column(JSON, nullable=True)
+    technical_parameters = Column(JSON, nullable=True)
+
+    # Retrieval signals
+    retrieval_rank = Column(Integer, nullable=False)
+    reranker_score = Column(Float, nullable=True)
+    rrf_score = Column(Float, nullable=True)
+    retrieval_method = Column(String(64), nullable=True, default="hybrid_cross_encoder")
+
+    # Phase 6 & 6.1 signals
+    requirement_coverage = Column(JSON, nullable=True,
+                                comment="Facet-by-facet requirement coverage with MATCH/PARTIAL/UNKNOWN/CONFLICT")
+    gaps = Column(JSON, nullable=True,
+                  comment="List of detected gaps with category and severity")
+
+    # Regulatory signals
+    standard_status = Column(String(128), nullable=True, default="NEEDS_VERIFICATION")
+    qco_status = Column(String(128), nullable=True, default="NOT_FOUND_IN_SEED")
+    qco_ids = Column(JSON, nullable=True)
+    order_names = Column(JSON, nullable=True)
+    effective_date = Column(String(64), nullable=True)
+    authority = Column(String(256), nullable=True)
+
+    # Composite AI recommendation state
+    ai_recommendation_state = Column(String(64), nullable=False, default="REVIEW_REQUIRED",
+                                     comment="RECOMMENDED_FOR_REVIEW | REVIEW_REQUIRED | POTENTIALLY_RELEVANT | INSUFFICIENT_EVIDENCE")
+    notes = Column(Text, nullable=True)
+    evidence = Column(JSON, nullable=True, comment="List of verifiable EvidenceItems")
+    normative_references = Column(JSON, nullable=True, comment="Linked graph standard references")
+
+    created_at = Column(DateTime, default=datetime.datetime.utcnow)
+
+    # Relationships
+    review = relationship("Review", back_populates="candidates")
+
+    def __repr__(self):
+        return f"<ReviewCandidate R{self.review_id} → {self.is_number} Rank #{self.retrieval_rank}>"
+
+
+class VerificationItem(Base):
+    """Specific verification task derived from gaps and regulatory claims."""
+    __tablename__ = "verification_items"
+
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    review_id = Column(Integer, ForeignKey("reviews.id"), nullable=False, index=True)
+    candidate_id = Column(Integer, ForeignKey("review_candidates.id"), nullable=True, index=True)
+    standard_id = Column(String(128), nullable=True, index=True)
+
+    item_key = Column(String(128), nullable=False,
+                      comment="Unique key e.g. 'qco_gazette_verification', 'param_voltage'")
+    title = Column(String(256), nullable=False)
+    category = Column(String(128), nullable=False,
+                      comment="REGULATORY | STANDARD_STATUS | TECHNICAL_PARAMETER | MATERIAL | APPLICATION")
+    system_state = Column(String(64), nullable=False, default="NEEDS_VERIFICATION")
+    officer_state = Column(String(64), nullable=False, default="UNVERIFIED",
+                           comment="UNVERIFIED | VERIFIED | CONFLICTING | NOT_APPLICABLE")
+    is_regulatory = Column(Boolean, nullable=False, default=False)
+    system_evidence = Column(JSON, nullable=True)
+    officer_evidence_reference = Column(Text, nullable=True,
+                                        comment="Mandatory reference for regulatory items when verified")
+    officer_note = Column(Text, nullable=True)
+    verified_at = Column(DateTime, nullable=True)
+    verified_by = Column(String(128), nullable=True)
+    created_at = Column(DateTime, default=datetime.datetime.utcnow)
+
+    # Relationships
+    review = relationship("Review", back_populates="verification_items")
+
+    def __repr__(self):
+        return f"<VerificationItem {self.item_key}: {self.officer_state}>"
+
+
+class OfficerDecision(Base):
+    """Final decision recorded by an authorized procurement officer."""
+    __tablename__ = "officer_decisions"
+
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    review_id = Column(Integer, ForeignKey("reviews.id"), unique=True, nullable=False, index=True)
+    state = Column(String(64), nullable=False,
+                   comment="ACCEPTED | REJECTED | NEEDS_VERIFICATION | REQUEST_REVISION")
+    selected_candidate_id = Column(Integer, nullable=True)
+    selected_standard_id = Column(String(128), nullable=True)
+    selected_is_number = Column(String(256), nullable=True)
+
+    ai_recommendation_state = Column(String(64), nullable=True)
+    is_override = Column(Boolean, nullable=False, default=False,
+                          comment="True if officer decision diverges from AI recommendation")
+    rejection_reason = Column(String(128), nullable=True,
+                              comment="WRONG_PRODUCT | WRONG_SECTOR | INSUFFICIENT_TECHNICAL_COVERAGE | PARAMETER_CONFLICT | OUTDATED_STANDARD | REGULATORY_MISMATCH | INSUFFICIENT_EVIDENCE | DUPLICATE_STANDARD | OTHER")
+    rejection_note = Column(Text, nullable=True)
+    officer_id = Column(String(128), nullable=True, default="officer_001")
+    officer_role = Column(String(128), nullable=True, default="Procurement Officer")
+    decision_summary = Column(Text, nullable=True)
+    supporting_evidence_references = Column(JSON, nullable=True)
+    timestamp = Column(DateTime, default=datetime.datetime.utcnow)
+
+    # Relationships
+    review = relationship("Review", back_populates="officer_decision")
+
+    def __repr__(self):
+        return f"<OfficerDecision R{self.review_id}: {self.state} (Override={self.is_override})>"
+
+
+class AuditEvent(Base):
+    """Append-only audit trail event for every review interaction."""
+    __tablename__ = "audit_events"
+
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    review_id = Column(Integer, ForeignKey("reviews.id"), nullable=False, index=True)
+    event_type = Column(String(64), nullable=False, index=True,
+                        comment="REVIEW_CREATED | REVIEW_OPENED | CANDIDATE_SELECTED | CANDIDATE_COMPARISON | EVIDENCE_OPENED | VERIFICATION_CHANGED | DECISION_MADE | DECISION_MODIFIED | REVIEW_REOPENED")
+    previous_state = Column(String(64), nullable=True)
+    new_state = Column(String(64), nullable=True)
+    actor = Column(String(128), nullable=False, default="officer")
+    actor_role = Column(String(128), nullable=True, default="Procurement Officer")
+    reason = Column(Text, nullable=True)
+    details = Column(JSON, nullable=True)
+    timestamp = Column(DateTime, default=datetime.datetime.utcnow)
+
+    # Relationships
+    review = relationship("Review", back_populates="audit_events")
+
+    def __repr__(self):
+        return f"<AuditEvent R{self.review_id}: {self.event_type} at {self.timestamp}>"
+
+
+class OfficerEvidence(Base):
+    """Officer-provided external evidence records, stored separately from AI seed evidence."""
+    __tablename__ = "officer_evidence"
+
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    review_id = Column(Integer, ForeignKey("reviews.id"), nullable=False, index=True)
+    candidate_id = Column(Integer, nullable=True)
+    verification_item_id = Column(Integer, ForeignKey("verification_items.id"), nullable=True)
+    evidence_type = Column(String(64), nullable=False,
+                          comment="GAZETTE_ORDER | BIS_PORTAL | MINISTRY_CIRCULAR | TECHNICAL_SPEC | OTHER")
+    reference_id = Column(String(256), nullable=False)
+    url = Column(Text, nullable=True)
+    description = Column(Text, nullable=True)
+    uploaded_by = Column(String(128), nullable=False, default="officer")
+    created_at = Column(DateTime, default=datetime.datetime.utcnow)
+
+    # Relationships
+    review = relationship("Review", back_populates="officer_evidences")
+
+    def __repr__(self):
+        return f"<OfficerEvidence R{self.review_id}: {self.evidence_type} {self.reference_id}>"
+
