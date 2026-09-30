@@ -15,7 +15,6 @@ python-docx>=0.8
 
 # ML / Embeddings
 sentence-transformers>=2.2
-torch>=2.0
 
 # Search
 rank-bm25>=0.2
