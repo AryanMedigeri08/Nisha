@@ -15,7 +15,9 @@ import {
   RejectionReason,
 } from '../types/review';
 
-const BASE_URL = import.meta.env.VITE_API_BASE_URL || '';
+// Resolve backend base URL from Vite environment variables (VITE_API_URL or VITE_API_BASE_URL)
+const RAW_API_URL = import.meta.env.VITE_API_URL || import.meta.env.VITE_API_BASE_URL || '';
+const BASE_URL = RAW_API_URL.replace(/\/+$/, '');
 
 async function handleResponse<T>(res: Response): Promise<T> {
   if (!res.ok) {

@@ -25,10 +25,7 @@ EMBEDDINGS_DIR = PROJECT_ROOT / os.getenv("EMBEDDINGS_DIR", "data/embeddings")
 # -------------------------------------------------------------------
 # Database
 # -------------------------------------------------------------------
-DATABASE_URL = os.getenv(
-    "DATABASE_URL",
-    "postgresql://ps26108_user:ps26108_pass@localhost:5432/ps26108_db",
-)
+DATABASE_URL = os.getenv("DATABASE_URL")
 
 # For Phase 1 (no PostgreSQL yet), we use SQLite as a local fallback.
 SQLITE_URL = f"sqlite:///{PROJECT_ROOT / 'data' / 'ps26108_local.db'}"
@@ -45,7 +42,12 @@ EMBEDDING_DIM = int(os.getenv("EMBEDDING_DIM", "384"))
 RERANKER_MODEL = os.getenv("RERANKER_MODEL", "cross-encoder/ms-marco-MiniLM-L-6-v2")
 
 # -------------------------------------------------------------------
-# API
+# API & Networking
 # -------------------------------------------------------------------
 API_HOST = os.getenv("API_HOST", "0.0.0.0")
-API_PORT = int(os.getenv("API_PORT", "8000"))
+# Render dynamically passes PORT; fallback to API_PORT or 8000
+API_PORT = int(os.getenv("PORT", os.getenv("API_PORT", "8000")))
+
+# CORS & Frontend URL configuration
+FRONTEND_URL = os.getenv("FRONTEND_URL")
+CORS_ORIGINS = os.getenv("CORS_ORIGINS", "")

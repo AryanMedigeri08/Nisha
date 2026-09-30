@@ -61,10 +61,36 @@ app = FastAPI(
     redoc_url="/redoc",
 )
 
-# Configure CORS for local development and hosted demonstration
+from sqlalchemy import text as func_text
+from backend.app.core.config import FRONTEND_URL, CORS_ORIGINS
+
+# Build dynamic allowed origins list for CORS
+default_dev_origins = [
+    "http://localhost:3000",
+    "http://localhost:5173",
+    "http://127.0.0.1:3000",
+    "http://127.0.0.1:5173",
+]
+allowed_origins_set = set(default_dev_origins)
+
+if FRONTEND_URL:
+    for url in FRONTEND_URL.split(","):
+        clean_url = url.strip().rstrip("/")
+        if clean_url:
+            allowed_origins_set.add(clean_url)
+
+if CORS_ORIGINS:
+    for origin in CORS_ORIGINS.split(","):
+        clean_origin = origin.strip().rstrip("/")
+        if clean_origin:
+            allowed_origins_set.add(clean_origin)
+
+cors_origins_list = list(allowed_origins_set)
+
+# Configure CORS for local development and hosted Vercel frontend
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Production deployments can configure specific origins
+    allow_origins=cors_origins_list if "*" not in allowed_origins_set else ["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -75,7 +101,7 @@ app.include_router(router)
 
 
 # -----------------------------------------------------------------------------
-# Health Endpoints
+# Health & Root Endpoints
 # -----------------------------------------------------------------------------
 
 @app.get("/health", tags=["System Health"], summary="Liveness Probe")
@@ -112,27 +138,17 @@ def readiness_check() -> Dict[str, Any]:
     }
 
 
-from pathlib import Path
-from fastapi.staticfiles import StaticFiles
+@app.get("/", tags=["System Health"], summary="API Root")
+def root_endpoint() -> Dict[str, Any]:
+    """API Root with metadata and documentation links."""
+    return {
+        "project": "PS26108 — AI-Powered Indian Standards Recommendation Engine",
+        "objective": "Phase 7 Human-in-the-Loop Officer Review & Decision-Support Backend",
+        "documentation": "/docs",
+        "health": "/health",
+        "ready": "/health/ready",
+        "api_prefix": "/api",
+        "disclaimer": "Decision-support prototype. Final procurement standard selection requires authorized human verification.",
+    }
 
-# Helper for readiness check SQL query
-from sqlalchemy import text as func_text
-
-# Mount static frontend production build if available
-frontend_dist = Path(__file__).resolve().parents[2] / "frontend" / "dist"
-if frontend_dist.exists():
-    logger.info(f"Mounting production frontend UI from {frontend_dist}")
-    app.mount("/", StaticFiles(directory=str(frontend_dist), html=True), name="frontend")
-else:
-    @app.get("/", tags=["System Health"], summary="API Root")
-    def root_endpoint() -> Dict[str, Any]:
-        """API Root with metadata and documentation links."""
-        return {
-            "project": "PS26108 — AI-Powered Indian Standards Recommendation Engine",
-            "objective": "Phase 7 Human-in-the-Loop Officer Review & Decision-Support",
-            "documentation": "/docs",
-            "health": "/health",
-            "api_prefix": "/api",
-            "disclaimer": "Decision-support prototype. Final procurement standard selection requires authorized human verification.",
-        }
 
